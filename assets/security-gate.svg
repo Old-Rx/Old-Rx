@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290">
+<defs><filter id="g"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="290" rx="18" fill="#070708" stroke="#4e000f"/>
+<text x="42" y="38" font-family="monospace" font-size="18" fill="#ff334f">SECURITY GATE // ARCHITECTURE CHECKPOINT</text>
+<g transform="translate(220 155)" filter="url(#g)">
+  <path d="M0-72 L52-50 V-5 C52 42 20 72 0 84 C-20 72 -52 42 -52 -5 V-50 Z" fill="#18090d" stroke="#ff314f" stroke-width="4"/>
+  <path d="M0-52 L26-40 V-10 C26 16 9 34 0 42 C-9 34 -26 16 -26 -10 V-40 Z" fill="#ff314f" opacity=".18"/>
+  <animateTransform attributeName="transform" type="scale" values="1;1.04;1" dur="2s" repeatCount="indefinite"/>
+</g>
+<g font-family="monospace" font-size="16" fill="#ff7a8d">
+  <text x="360" y="98">1. VALIDATION      → reject malformed input</text>
+  <text x="360" y="128">2. AUTHENTICATION  → identify the actor</text>
+  <text x="360" y="158">3. AUTHORIZATION   → verify permissions</text>
+  <text x="360" y="188">4. SECRETS         → keep keys out of code</text>
+  <text x="360" y="218">5. SAFE DEFAULTS   → deny by default</text>
+  <text x="360" y="248">6. LOGGING         → observe suspicious behavior</text>
+</g>
+</svg>

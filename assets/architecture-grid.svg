@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+<rect width="1200" height="340" rx="18" fill="#070708" stroke="#4f000f"/>
+<text x="42" y="38" font-family="monospace" font-size="18" fill="#ff334f">ARCHITECTURE GRID // SEPARATE RESPONSIBILITIES</text>
+<g font-family="monospace" font-size="15">
+  <rect x="80" y="92" width="180" height="88" rx="12" fill="#12090b" stroke="#620014"/><text x="108" y="124" font-size="18" fill="#ff7184">CLIENT</text><text x="108" y="149" fill="#ffbac3">UI, forms, routing,</text><text x="108" y="169" fill="#ffbac3">local state</text>
+  <rect x="340" y="92" width="180" height="88" rx="12" fill="#12090b" stroke="#620014"/><text x="367" y="124" font-size="18" fill="#ff7184">API</text><text x="367" y="149" fill="#ffbac3">auth, validation,</text><text x="367" y="169" fill="#ffbac3">services</text>
+  <rect x="600" y="92" width="180" height="88" rx="12" fill="#12090b" stroke="#620014"/><text x="620" y="124" font-size="18" fill="#ff7184">DATA</text><text x="620" y="149" fill="#ffbac3">SQL, cache, files,</text><text x="620" y="169" fill="#ffbac3">documents</text>
+  <rect x="860" y="92" width="180" height="88" rx="12" fill="#12090b" stroke="#620014"/><text x="884" y="124" font-size="18" fill="#ff7184">OPS</text><text x="884" y="149" fill="#ffbac3">deploy, route,</text><text x="884" y="169" fill="#ffbac3">observe</text>
+  <rect x="470" y="226" width="260" height="74" rx="12" fill="#12090b" stroke="#620014"/><text x="520" y="256" font-size="18" fill="#ff7184">RULE</text><text x="520" y="279" fill="#ffbac3">clear boundaries prevent chaos</text>
+</g>
+<g fill="none" stroke="#ff314f" stroke-width="3"><path d="M260 136H340M520 136H600M780 136H860"/><path d="M600 180V226"/></g>
+<g fill="#ffffff" stroke="#ff314f" stroke-width="3"><circle r="6"><animateMotion path="M260 136H1040" dur="5.4s" repeatCount="indefinite"/></circle></g>
+</svg>

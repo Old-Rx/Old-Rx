@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="235" viewBox="0 0 1200 235">
+<rect width="1200" height="235" rx="18" fill="#070708" stroke="#5b0011"/>
+<text x="42" y="38" font-family="monospace" font-size="19" fill="#ff334f">PRODUCTION BOSS // STABILIZE THE SYSTEM</text>
+<rect x="65" y="82" width="1070" height="30" rx="15" fill="#260007"/>
+<rect x="65" y="82" width="1070" height="30" rx="15" fill="#ff314f"><animate attributeName="width" values="1070;996;1042;920;976;1070" dur="3.2s" repeatCount="indefinite"/></rect>
+<text x="600" y="103" text-anchor="middle" font-family="monospace" font-size="14" fill="#ffffff">PRODUCTION HP</text>
+<g font-family="monospace" font-size="16" fill="#ff7487">
+  <text x="65" y="162">PHASE 1  local build succeeds</text><text x="65" y="184">PHASE 2  environment differences appear</text>
+  <text x="600" y="162">PHASE 3  traffic hits real paths</text><text x="600" y="184">PHASE 4  logs expose edge cases</text>
+  <text x="65" y="212">PHASE 5  patch, observe and stabilize</text>
+</g>
+</svg>

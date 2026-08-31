@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="315" viewBox="0 0 1200 315">
+<rect width="1200" height="315" rx="18" fill="#070708" stroke="#4f000f"/>
+<text x="42" y="38" font-family="monospace" font-size="18" fill="#ff334f">BACKEND MAP // REQUEST LIFECYCLE</text>
+<g font-family="monospace" font-size="13">
+  <rect x="48" y="104" width="138" height="86" rx="12" fill="#12080a" stroke="#620014"/><text x="78" y="132" font-size="17" fill="#ff7184">ROUTER</text><text x="78" y="157" fill="#ffbac3">path matching</text><text x="78" y="175" fill="#ffbac3">method handling</text>
+  <rect x="224" y="104" width="138" height="86" rx="12" fill="#12080a" stroke="#620014"/><text x="242" y="132" font-size="17" fill="#ff7184">AUTH</text><text x="242" y="157" fill="#ffbac3">sessions</text><text x="242" y="175" fill="#ffbac3">tokens / roles</text>
+  <rect x="400" y="104" width="138" height="86" rx="12" fill="#12080a" stroke="#620014"/><text x="416" y="132" font-size="17" fill="#ff7184">VALIDATION</text><text x="416" y="157" fill="#ffbac3">payload rules</text><text x="416" y="175" fill="#ffbac3">sanitization</text>
+  <rect x="576" y="104" width="138" height="86" rx="12" fill="#12080a" stroke="#620014"/><text x="597" y="132" font-size="17" fill="#ff7184">LOGIC</text><text x="597" y="157" fill="#ffbac3">services</text><text x="597" y="175" fill="#ffbac3">business rules</text>
+  <rect x="752" y="104" width="138" height="86" rx="12" fill="#12080a" stroke="#620014"/><text x="776" y="132" font-size="17" fill="#ff7184">DATA</text><text x="776" y="157" fill="#ffbac3">ORM / queries</text><text x="776" y="175" fill="#ffbac3">cache / queues</text>
+  <rect x="928" y="104" width="138" height="86" rx="12" fill="#12080a" stroke="#620014"/><text x="950" y="132" font-size="17" fill="#ff7184">RESPONSE</text><text x="950" y="157" fill="#ffbac3">JSON / errors</text><text x="950" y="175" fill="#ffbac3">status / headers</text>
+</g>
+<g fill="none" stroke="#ff314f" stroke-width="3"><path d="M186 147H224M362 147H400M538 147H576M714 147H752M890 147H928"/></g>
+<g fill="#ffffff" stroke="#ff314f" stroke-width="3"><circle r="6"><animateMotion path="M186 147H1066" dur="6.4s" repeatCount="indefinite"/></circle></g>
+<text x="60" y="250" font-family="monospace" font-size="14" fill="#ff7c8d">Node / Express / NestJS, Python / Django / FastAPI, Java / Spring, Go, Rust and .NET all fit here depending on scale, performance and ecosystem needs.</text>
+<text x="60" y="274" font-family="monospace" font-size="14" fill="#ff7c8d">The important part is the flow: route → auth → validation → logic → data → response.</text>
+</svg>

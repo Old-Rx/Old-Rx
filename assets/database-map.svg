@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="325" viewBox="0 0 1200 325">
+<rect width="1200" height="325" rx="18" fill="#070708" stroke="#4f000f"/>
+<text x="42" y="38" font-family="monospace" font-size="18" fill="#ff334f">DATABASE MAP // STORAGE STRATEGIES</text>
+<g font-family="monospace" font-size="14">
+  <rect x="70" y="92" width="250" height="140" rx="14" fill="#12090b" stroke="#620014"/><text x="92" y="122" font-size="18" fill="#ff7184">SQL</text><text x="92" y="148" fill="#ffbac3">MySQL / PostgreSQL</text><text x="92" y="170" fill="#ffbac3">• relational data</text><text x="92" y="192" fill="#ffbac3">• transactions</text><text x="92" y="214" fill="#ffbac3">• joins and constraints</text>
+  <rect x="474" y="92" width="250" height="140" rx="14" fill="#12090b" stroke="#620014"/><text x="496" y="122" font-size="18" fill="#ff7184">DOCUMENT</text><text x="496" y="148" fill="#ffbac3">MongoDB</text><text x="496" y="170" fill="#ffbac3">• flexible schemas</text><text x="496" y="192" fill="#ffbac3">• nested objects</text><text x="496" y="214" fill="#ffbac3">• content-like structures</text>
+  <rect x="878" y="92" width="250" height="140" rx="14" fill="#12090b" stroke="#620014"/><text x="900" y="122" font-size="18" fill="#ff7184">CACHE / REALTIME</text><text x="900" y="148" fill="#ffbac3">Redis / Firebase / Supabase</text><text x="900" y="170" fill="#ffbac3">• fast cache</text><text x="900" y="192" fill="#ffbac3">• sessions and queues</text><text x="900" y="214" fill="#ffbac3">• realtime / managed backend</text>
+</g>
+<g fill="none" stroke="#ff314f" stroke-width="3"><path d="M320 162H474M724 162H878"/></g>
+<g fill="#ffffff" stroke="#ff314f" stroke-width="3"><circle r="6"><animateMotion path="M320 162H1128" dur="5.6s" repeatCount="indefinite"/></circle></g>
+<text x="74" y="285" font-family="monospace" font-size="14" fill="#ff7c8d">Practical model: SQL keeps core truth, Redis accelerates hot paths, document stores fit flexible shapes, managed platforms reduce setup for fast delivery.</text>
+</svg>

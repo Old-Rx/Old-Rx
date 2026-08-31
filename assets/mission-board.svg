@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="275" viewBox="0 0 1200 275">
+<rect width="1200" height="275" rx="18" fill="#070708" stroke="#4e000f"/>
+<text x="42" y="38" font-family="monospace" font-size="18" fill="#ff334f">MISSION BOARD // CURRENT OBJECTIVES</text>
+<g font-family="monospace" font-size="16" fill="#ff8494">
+  <text x="58" y="92">[████████████████████████████████████████] Old-Rx identity</text>
+  <text x="58" y="124">[████████████████████████████████████████] RX-Development profile system</text>
+  <text x="58" y="156">[███████████████████████████████████░░░░░] project documentation depth</text>
+  <text x="58" y="188">[██████████████████████████████░░░░░░░░░░] public repository growth</text>
+  <text x="58" y="220">[████████████████████████░░░░░░░░░░░░░░░░] open-source roadmap</text>
+</g>
+</svg>

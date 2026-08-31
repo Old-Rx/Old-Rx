@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+<rect width="1200" height="320" rx="18" fill="#070708" stroke="#4e000f"/>
+<text x="42" y="38" font-family="monospace" font-size="18" fill="#ff334f">DELIVERY PIPELINE // REPEATABLE RELEASE FLOW</text>
+<g font-family="monospace" font-size="14">
+  <rect x="58" y="118" width="145" height="78" rx="12" fill="#12090b" stroke="#620014"/><text x="92" y="146" font-size="18" fill="#ff7184">COMMIT</text><text x="92" y="168" fill="#ffbac3">source change</text>
+  <rect x="244" y="118" width="145" height="78" rx="12" fill="#12090b" stroke="#620014"/><text x="286" y="146" font-size="18" fill="#ff7184">TEST</text><text x="286" y="168" fill="#ffbac3">quality gate</text>
+  <rect x="430" y="118" width="145" height="78" rx="12" fill="#12090b" stroke="#620014"/><text x="462" y="146" font-size="18" fill="#ff7184">BUILD</text><text x="462" y="168" fill="#ffbac3">artifact creation</text>
+  <rect x="616" y="118" width="145" height="78" rx="12" fill="#12090b" stroke="#620014"/><text x="642" y="146" font-size="18" fill="#ff7184">DEPLOY</text><text x="642" y="168" fill="#ffbac3">release target</text>
+  <rect x="802" y="118" width="145" height="78" rx="12" fill="#12090b" stroke="#620014"/><text x="820" y="146" font-size="18" fill="#ff7184">OBSERVE</text><text x="820" y="168" fill="#ffbac3">logs / metrics</text>
+  <rect x="988" y="118" width="145" height="78" rx="12" fill="#12090b" stroke="#620014"/><text x="1011" y="146" font-size="18" fill="#ff7184">IMPROVE</text><text x="1011" y="168" fill="#ffbac3">feedback loop</text>
+</g>
+<g fill="none" stroke="#ff314f" stroke-width="3"><path d="M203 156H244M389 156H430M575 156H616M761 156H802M947 156H988"/></g>
+<g fill="#ffffff" stroke="#ff314f" stroke-width="3"><circle r="6"><animateMotion path="M203 156H1133" dur="6.8s" repeatCount="indefinite"/></circle></g>
+<text x="66" y="264" font-family="monospace" font-size="14" fill="#ff7c8d">Reliable delivery means the path from code to production is visible, automated where useful, and observable after deployment.</text>
+</svg>

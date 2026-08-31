@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<rect width="1200" height="300" rx="18" fill="#070708" stroke="#4e000f"/>
+<text x="42" y="38" font-family="monospace" font-size="18" fill="#ff334f">FRONTEND MAP // FROM INPUT TO VISUAL RESPONSE</text>
+<g font-family="monospace">
+  <rect x="52" y="108" width="135" height="72" rx="12" fill="#12080a" stroke="#620014"/><text x="82" y="136" font-size="18" fill="#ff7184">INPUT</text><text x="82" y="160" font-size="13" fill="#ffbac3">forms, clicks,</text><text x="82" y="178" font-size="13" fill="#ffbac3">navigation</text>
+  <rect x="238" y="108" width="135" height="72" rx="12" fill="#12080a" stroke="#620014"/><text x="264" y="136" font-size="18" fill="#ff7184">STATE</text><text x="264" y="160" font-size="13" fill="#ffbac3">local/global</text><text x="264" y="178" font-size="13" fill="#ffbac3">data flow</text>
+  <rect x="424" y="108" width="135" height="72" rx="12" fill="#12080a" stroke="#620014"/><text x="450" y="136" font-size="18" fill="#ff7184">COMPONENTS</text><text x="450" y="160" font-size="13" fill="#ffbac3">React/Vue/</text><text x="450" y="178" font-size="13" fill="#ffbac3">Angular/Svelte</text>
+  <rect x="610" y="108" width="135" height="72" rx="12" fill="#12080a" stroke="#620014"/><text x="649" y="136" font-size="18" fill="#ff7184">STYLES</text><text x="649" y="160" font-size="13" fill="#ffbac3">CSS, Sass,</text><text x="649" y="178" font-size="13" fill="#ffbac3">Tailwind, UI libs</text>
+  <rect x="796" y="108" width="135" height="72" rx="12" fill="#12080a" stroke="#620014"/><text x="835" y="136" font-size="18" fill="#ff7184">API</text><text x="835" y="160" font-size="13" fill="#ffbac3">fetch / axios /</text><text x="835" y="178" font-size="13" fill="#ffbac3">GraphQL</text>
+  <rect x="982" y="108" width="135" height="72" rx="12" fill="#12080a" stroke="#620014"/><text x="1005" y="136" font-size="18" fill="#ff7184">RENDER</text><text x="1005" y="160" font-size="13" fill="#ffbac3">DOM update</text><text x="1005" y="178" font-size="13" fill="#ffbac3">visual output</text>
+</g>
+<g fill="none" stroke="#ff314f" stroke-width="3"><path d="M187 144H238M373 144H424M559 144H610M745 144H796M931 144H982"/></g>
+<g fill="#ffffff" stroke="#ff314f" stroke-width="3"><circle r="6"><animateMotion path="M187 144H982" dur="5.8s" repeatCount="indefinite"/></circle></g>
+<text x="60" y="245" font-family="monospace" font-size="14" fill="#ff7c8d">Core idea: user interaction changes state, state controls rendering, rendering reflects data and UI rules.</text>
+</svg>
