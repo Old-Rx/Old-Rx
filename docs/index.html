@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="theme-color" content="#05060a"/>
+  <title>Old-Rx // RX-Development</title>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <canvas id="particles"></canvas>
+  <div class="scanlines"></div>
+  <div class="noise"></div>
+
+  <header class="hero section">
+    <div class="corner tl">NODE://OLD-RX</div>
+    <div class="corner tr">ACCESS://ROOT</div>
+    <div class="hero-core">
+      <div class="eyebrow">RX-DEVELOPMENT // HYBRID MAX</div>
+      <h1 class="glitch" data-text="OLD-RX">OLD-RX</h1>
+      <p class="sub">A cinematic developer profile built with HTML, CSS, JavaScript, Canvas and real GIF animation.</p>
+      <div class="actions">
+        <a class="btn red" href="https://github.com/Old-Rx?tab=repositories">Repositories</a>
+        <a class="btn blue" href="https://github.com/Old-Rx/rx-msg">Current Build</a>
+        <button id="overdrive" class="btn ghost">OVERDRIVE</button>
+      </div>
+      <div class="bootbar"><i></i></div>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <a href="#terminal">Terminal</a>
+    <a href="#game">RX Game</a>
+    <a href="#stack">Stack</a>
+    <a href="#project">Project</a>
+    <a href="#boss">Boss</a>
+  </nav>
+
+  <main>
+    <section id="terminal" class="section grid-2">
+      <article class="panel">
+        <div class="panel-title">LIVE TERMINAL</div>
+        <pre id="terminalText" class="terminal"></pre>
+      </article>
+      <article class="panel stats">
+        <div class="panel-title blue-text">SYSTEM STATUS</div>
+        <div class="meter"><span>REACTOR</span><b style="--p:96%"></b></div>
+        <div class="meter"><span>TECH MATRIX</span><b style="--p:100%"></b></div>
+        <div class="meter"><span>PROJECT SIGNAL</span><b style="--p:88%"></b></div>
+        <div class="meter"><span>OVERDRIVE</span><b style="--p:91%"></b></div>
+      </article>
+    </section>
+
+    <section id="game" class="section">
+      <div class="section-head">
+        <span>01</span><h2>RX Letter Run</h2><p>Use ← → or A/D. Collect the checkpoints and build RX-DEVELOPMENT.</p>
+      </div>
+      <div class="panel game-panel">
+        <canvas id="gameCanvas" width="1100" height="320"></canvas>
+        <div class="game-help">Keyboard: ← → / A D • R = reset • Auto-demo starts when idle</div>
+      </div>
+    </section>
+
+    <section id="stack" class="section">
+      <div class="section-head">
+        <span>02</span><h2>Technology Matrix</h2><p>Grouped by purpose instead of one random icon wall.</p>
+      </div>
+
+      <div class="orbit-wrap panel">
+        <div class="orbit core-orbit"><div class="rx-core">RX</div></div>
+        <div class="orb o1 red">Frontend</div>
+        <div class="orb o2 blue">Backend</div>
+        <div class="orb o3 red">Data</div>
+        <div class="orb o4 blue">DevOps</div>
+        <div class="orb o5 red">Systems</div>
+        <div class="orb o6 blue">Cloud</div>
+      </div>
+
+      <div id="techGrid" class="tech-grid"></div>
+    </section>
+
+    <section class="section grid-3">
+      <article class="panel info-card redline">
+        <div class="panel-title">FRONTEND</div>
+        <p>Input → components → state → API → render. UI should be predictable, accessible and easy to extend.</p>
+      </article>
+      <article class="panel info-card blueline">
+        <div class="panel-title blue-text">BACKEND</div>
+        <p>Route → auth → validate → business logic → data → response. Contracts stay clean; complexity stays behind them.</p>
+      </article>
+      <article class="panel info-card redline">
+        <div class="panel-title">DATA</div>
+        <p>SQL stores durable truth, Redis accelerates hot paths, document stores handle flexible shapes.</p>
+      </article>
+    </section>
+
+    <section id="project" class="section">
+      <div class="section-head">
+        <span>03</span><h2>Current Public Build</h2><p>Grounding the profile in real repository signal.</p>
+      </div>
+      <article class="panel project-card">
+        <div class="radar">
+          <i></i><b></b><em></em>
+        </div>
+        <div>
+          <div class="panel-title">Old-Rx / rx-msg</div>
+          <div class="kv"><span>Visibility</span><strong>Public</strong></div>
+          <div class="kv"><span>Main language</span><strong>Haskell</strong></div>
+          <div class="kv"><span>Default branch</span><strong>main</strong></div>
+          <a class="btn blue small" href="https://github.com/Old-Rx/rx-msg">Open repository</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <span>04</span><h2>Delivery Pipeline</h2><p>Moving from code to production with visible checkpoints.</p>
+      </div>
+      <div class="pipeline panel">
+        <div>COMMIT</div><i></i><div>TEST</div><i></i><div>BUILD</div><i></i><div>DEPLOY</div><i></i><div>OBSERVE</div>
+        <b class="packet"></b>
+      </div>
+    </section>
+
+    <section id="boss" class="section">
+      <div class="section-head">
+        <span>05</span><h2>Production Boss</h2><p>The final test is whether the system stays understandable when it fails.</p>
+      </div>
+      <article class="panel boss">
+        <div class="boss-title">PRODUCTION HP</div>
+        <div class="hp"><i></i></div>
+        <div class="phases">
+          <div><b>01</b><span>Local build works</span></div>
+          <div><b>02</b><span>Environment differs</span></div>
+          <div><b>03</b><span>Real traffic hits</span></div>
+          <div><b>04</b><span>Logs expose edges</span></div>
+          <div><b>05</b><span>Patch & stabilize</span></div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="section footer">
+    <h2>RX-DEVELOPMENT</h2>
+    <p>BUILD // DEBUG // SHIP // OBSERVE // REPEAT</p>
+    <div class="wave"></div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
