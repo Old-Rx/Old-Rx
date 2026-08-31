@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230">
+<defs><filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="230" rx="18" fill="#070708" stroke="#52000f"/>
+<text x="44" y="38" font-family="monospace" font-size="19" fill="#ff334f">SECURITY GATE // DEFENSE-IN-DEPTH</text>
+<g transform="translate(210 130)" filter="url(#g)"><path d="M0-68 L58-46 L50 25 Q35 70 0 88 Q-35 70-50 25 L-58-46 Z" fill="#160005" stroke="#ff314f" stroke-width="4"/><circle r="24" fill="#ff314f" opacity=".13"><animate attributeName="r" values="18;31;18" dur="2s" repeatCount="indefinite"/></circle><path d="M-13 2 L-2 14 L20-15" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g font-family="monospace" font-size="17" fill="#ff7184"><text x="370" y="82">INPUT VALIDATION ............ ACTIVE</text><text x="370" y="118">AUTHORIZATION ............... ACTIVE</text><text x="370" y="154">SECRET MANAGEMENT ........... ACTIVE</text><text x="370" y="190">LEAST PRIVILEGE ............. ACTIVE</text></g>
+<circle cx="1080" cy="75" r="7" fill="#ff314f"><animate attributeName="opacity" values=".15;1;.15" dur=".8s" repeatCount="indefinite"/></circle>
+</svg>
