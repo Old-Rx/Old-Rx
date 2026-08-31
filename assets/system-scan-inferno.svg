@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180">
+  <rect width="1200" height="180" rx="14" fill="#080808" stroke="#52000f"/>
+  <text x="48" y="38" font-family="monospace" font-size="18" fill="#ff334d">SYSTEM SCAN // INFERNO CORE</text>
+  <g font-family="monospace" font-size="16">
+    <text x="48" y="78" fill="#ff7184">BUILD ENGINE</text>
+    <text x="48" y="114" fill="#ff7184">DEBUG ARRAY</text>
+    <text x="48" y="150" fill="#ff7184">DEPLOY ROUTE</text>
+    <rect x="210" y="62" width="900" height="16" rx="8" fill="#240006"/>
+    <rect x="210" y="98" width="900" height="16" rx="8" fill="#240006"/>
+    <rect x="210" y="134" width="900" height="16" rx="8" fill="#240006"/>
+    <rect x="210" y="62" height="16" rx="8" fill="#ff3149">
+      <animate attributeName="width" values="0;900;900" keyTimes="0;.72;1" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="210" y="98" height="16" rx="8" fill="#d70026">
+      <animate attributeName="width" values="0;0;900;900" keyTimes="0;.18;.82;1" dur="2.7s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="210" y="134" height="16" rx="8" fill="#9d001a">
+      <animate attributeName="width" values="0;0;900;900" keyTimes="0;.28;.9;1" dur="3.1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1132" y="77" fill="#ff334d">OK</text>
+    <text x="1132" y="113" fill="#ff334d">OK</text>
+    <text x="1132" y="149" fill="#ff334d">OK</text>
+  </g>
+</svg>

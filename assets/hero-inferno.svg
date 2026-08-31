@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#020202"/>
+      <stop offset=".22" stop-color="#120002"/>
+      <stop offset=".48" stop-color="#3c0007"/>
+      <stop offset=".74" stop-color="#8d0016"/>
+      <stop offset="1" stop-color="#ff223f"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="pulse" cx="50%" cy="45%" r="50%">
+      <stop offset="0" stop-color="#ff334d" stop-opacity=".35"/>
+      <stop offset=".4" stop-color="#ff334d" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#ff334d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#pulse)">
+    <animate attributeName="opacity" values=".5;1;.5" dur="2.8s" repeatCount="indefinite"/>
+  </rect>
+  <g opacity=".18">
+    <path d="M0 35H1200M0 70H1200M0 105H1200M0 140H1200M0 175H1200M0 210H1200M0 245H1200M0 280H1200M0 315H1200" stroke="#ff4a61"/>
+    <path d="M60 0V340M120 0V340M180 0V340M240 0V340M300 0V340M360 0V340M420 0V340M480 0V340M540 0V340M600 0V340M660 0V340M720 0V340M780 0V340M840 0V340M900 0V340M960 0V340M1020 0V340M1080 0V340M1140 0V340" stroke="#4f000d"/>
+  </g>
+  <rect x="0" y="0" width="1200" height="4" fill="#ff304a">
+    <animate attributeName="y" values="0;336;0" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".2;.95;.2" dur="2.6s" repeatCount="indefinite"/>
+  </rect>
+  <g filter="url(#glow)">
+    <text x="600" y="150" text-anchor="middle" font-family="monospace" font-size="88" font-weight="700" fill="#ff3149">OLD-RX</text>
+    <text x="600" y="150" text-anchor="middle" font-family="monospace" font-size="88" font-weight="700" fill="#ffffff" opacity=".78">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -2 0; 3 0; -1 0; 0 0" dur=".85s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".78;.15;.86;.34;.78" dur=".85s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <text x="600" y="205" text-anchor="middle" font-family="monospace" font-size="26" fill="#ff8293">RX-DEVELOPMENT // INFERNO RED PROTOCOL</text>
+  <text x="55" y="38" font-family="monospace" font-size="18" fill="#ff425a">SYS://OVERDRIVE</text>
+  <text x="955" y="38" font-family="monospace" font-size="18" fill="#ff425a">STATUS://ONLINE</text>
+  <text x="55" y="308" font-family="monospace" font-size="18" fill="#ff425a">SIGNAL://LOCKED</text>
+  <text x="960" y="308" font-family="monospace" font-size="18" fill="#ff425a">MODE://BUILD</text>
+  <rect x="135" y="248" width="930" height="8" rx="4" fill="#330008"/>
+  <rect x="135" y="248" width="1" height="8" rx="4" fill="#ff3149">
+    <animate attributeName="width" values="0;930;0" keyTimes="0;.82;1" dur="3.6s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="600" cy="160" r="118" fill="none" stroke="#ff3149" stroke-opacity=".22" stroke-width="2">
+    <animate attributeName="r" values="95;125;95" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values=".05;.3;.05" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="0" y="0" width="1200" height="340" fill="none" stroke="#ff3951" opacity=".45"/>
+</svg>

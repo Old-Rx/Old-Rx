@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170">
+  <rect width="1200" height="170" fill="#060606"/>
+  <g font-family="monospace" font-size="17" fill="#ff3149" opacity=".72">
+    <text x="40" y="-20">01 RX 0D FF 13 37<animate attributeName="y" values="-20;210" dur="2.8s" repeatCount="indefinite"/></text>
+    <text x="180" y="-50">DE AD BE EF RX<animate attributeName="y" values="-50;210" dur="3.4s" repeatCount="indefinite"/></text>
+    <text x="330" y="-10">BUILD DEBUG SHIP<animate attributeName="y" values="-10;210" dur="2.5s" repeatCount="indefinite"/></text>
+    <text x="500" y="-80">7A 00 14 FF 31<animate attributeName="y" values="-80;210" dur="3.7s" repeatCount="indefinite"/></text>
+    <text x="650" y="-30">OLD RX ROOT 01<animate attributeName="y" values="-30;210" dur="3.1s" repeatCount="indefinite"/></text>
+    <text x="840" y="-70">RX DEVELOPMENT<animate attributeName="y" values="-70;210" dur="3.2s" repeatCount="indefinite"/></text>
+    <text x="1020" y="-45">INFERNO RED<animate attributeName="y" values="-45;210" dur="2.9s" repeatCount="indefinite"/></text>
+  </g>
+  <text x="600" y="94" text-anchor="middle" font-family="monospace" font-size="30" font-weight="700" fill="#fff">
+    RED SIGNAL STREAM
+    <animate attributeName="opacity" values=".22;1;.22" dur="1.25s" repeatCount="indefinite"/>
+  </text>
+</svg>
