@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200">
-<rect width="1200" height="200" rx="16" fill="#05060a"/>
-<path d="M0 112 C100 34,200 170,300 112 S500 34,600 112 S800 170,900 112 S1100 34,1200 112" fill="none" stroke="#42b8ff" stroke-width="3"><animate attributeName="d" values="M0 112 C100 34,200 170,300 112 S500 34,600 112 S800 170,900 112 S1100 34,1200 112;M0 112 C100 170,200 34,300 112 S500 170,600 112 S800 34,900 112 S1100 170,1200 112;M0 112 C100 34,200 170,300 112 S500 34,600 112 S800 170,900 112 S1100 34,1200 112" dur="2.7s" repeatCount="indefinite"/></path>
-<path d="M0 94 C100 156,200 22,300 94 S500 156,600 94 S800 22,900 94 S1100 156,1200 94" fill="none" stroke="#ff304f" stroke-width="2.4" opacity=".82"><animate attributeName="d" values="M0 94 C100 156,200 22,300 94 S500 156,600 94 S800 22,900 94 S1100 156,1200 94;M0 94 C100 22,200 156,300 94 S500 22,600 94 S800 156,900 94 S1100 22,1200 94;M0 94 C100 156,200 22,300 94 S500 156,600 94 S800 22,900 94 S1100 156,1200 94" dur="3s" repeatCount="indefinite"/></path>
-<text x="600" y="76" text-anchor="middle" font-family="monospace" font-size="30" font-weight="700" fill="#fff">RX-DEVELOPMENT</text>
-<text x="600" y="130" text-anchor="middle" font-family="monospace" font-size="16" fill="#ecf6ff">BUILD // DEBUG // SHIP // OBSERVE // REPEAT</text>
-<text x="600" y="160" text-anchor="middle" font-family="monospace" font-size="13" fill="#92ddff">All key explanations are now embedded directly inside the SVG dossiers.</text>
-</svg>
