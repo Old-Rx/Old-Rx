@@ -15,21 +15,17 @@ Palette: RED / BLACK.
 <div align="center">
 
 <!-- ================================================================ -->
-
 <!--                              HERO                                -->
-
 <!-- ================================================================ -->
 
 <img
-width="100%"
-src="https://capsule-render.vercel.app/api?type=venom&height=285&color=0:050505,22:170000,48:4A0000,72:9B0000,100:FF1F1F&text=OLD-RX&fontSize=78&fontColor=FFFFFF&fontAlignY=39&animation=fadeIn&desc=RX-DEVELOPMENT%20%E2%80%A2%20RED%20PROTOCOL&descSize=19&descAlignY=61"
-alt="Old-Rx — RX-Development"
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=venom&height=285&color=0:050505,22:170000,48:4A0000,72:9B0000,100:FF1F1F&text=OLD-RX&fontSize=78&fontColor=FFFFFF&fontAlignY=39&animation=fadeIn&desc=RX-DEVELOPMENT%20%E2%80%A2%20RED%20PROTOCOL&descSize=19&descAlignY=61"
+  alt="Old-Rx — RX-Development"
 />
 
 <!-- ================================================================ -->
-
 <!--                    RX-DEVELOPMENT MINI GAME                      -->
-
 <!-- ================================================================ -->
 
 <a href="https://github.com/Old-Rx">
@@ -59,10 +55,13 @@ alt="Old-Rx — RX-Development"
 
 </div>
 
+---
+
 <div align="center">
 
-BOOT_SEQUENCE://OLD-RX
+## `BOOT_SEQUENCE://OLD-RX`
 
+```text
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                                                                      ║
 ║                      R X   S Y S T E M                               ║
@@ -77,46 +76,54 @@ BOOT_SEQUENCE://OLD-RX
 ║   SYSTEM STATUS: ONLINE                                              ║
 ║                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
+```
 
-WELCOME TO THE RED ZONE
+### `WELCOME TO THE RED ZONE`
 
-Code lives here. Systems get built here.
+**Code lives here. Systems get built here.**
 
-BUILD • BREAK • DEBUG • REBUILD • SHIP
+`BUILD` • `BREAK` • `DEBUG` • `REBUILD` • `SHIP`
 
 </div>
 
-01 // IDENTITY
+---
+
+# `01 // IDENTITY`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-PLAYER CARD
+### `PLAYER CARD`
 
+```text
 HANDLE      : OLD-RX
 CODENAME    : RX-DEVELOPMENT
 THEME       : RED / BLACK
 MODE        : DEVELOPMENT
 STATUS      : ONLINE
 ACCESS      : ROOT
+```
 
 </td>
 <td width="50%" valign="top">
 
-SYSTEM CARD
+### `SYSTEM CARD`
 
+```text
 PROFILE     : github.com/Old-Rx
 PROJECT     : rx-msg
 BRANCH      : main
 PROTOCOL    : RX
 SIGNAL      : ACTIVE
 BUILD       : CONTINUOUS
+```
 
 </td>
 </tr>
 </table>
 
+```javascript
 const oldRx = {
   name: "Old-Rx",
   codename: "RX-Development",
@@ -136,13 +143,17 @@ const oldRx = {
 
   currentPublicBuild: "rx-msg"
 };
+```
 
-02 // RX-DEVELOPMENT_GAME
+---
+
+# `02 // RX-DEVELOPMENT_GAME`
 
 <div align="center">
 
-MISSION: ASSEMBLE THE CODENAME
+### `MISSION: ASSEMBLE THE CODENAME`
 
+```text
 ┌──────────────────────────────────────────────────────────────────────┐
 │                                                                      │
 │   OBJECTIVE: RECOVER ALL 14 CHARACTERS                               │
@@ -153,11 +164,13 @@ MISSION: ASSEMBLE THE CODENAME
 │   FINAL STRING: RX-DEVELOPMENT                                       │
 │                                                                      │
 └──────────────────────────────────────────────────────────────────────┘
+```
 
 </div>
 
-LEVEL PROGRESSION
+### `LEVEL PROGRESSION`
 
+```text
 LEVEL 01  [█□□□□□□□□□□□□□]  R_
 LEVEL 02  [██□□□□□□□□□□□□]  RX_
 LEVEL 03  [███□□□□□□□□□□□]  RX-_
@@ -176,17 +189,23 @@ LEVEL 14  [██████████████]  RX-DEVELOPMENT
              ████████████████████████████████████
              █      MISSION COMPLETE +999XP     █
              ████████████████████████████████████
+```
 
-GAME RULES
+### `GAME RULES`
 
+```text
 [01] Every bug is an enemy.
 [02] Every fix gives XP.
 [03] Every release unlocks a new level.
 [04] Every failure becomes documentation.
 [05] The final boss is always production.
+```
 
-03 // RED_HUD
+---
 
+# `03 // RED_HUD`
+
+```text
 ╔══════════════════════════════════════════════════════════════════════╗
 ║  HP  ████████████████████████████████████████████████  100 / 100   ║
 ║  XP  ████████████████████████████████████░░░░░░░░░░░  78%         ║
@@ -198,12 +217,15 @@ GAME RULES
 ║  ACTIVE REPO     : rx-msg                                           ║
 ║  CURRENT MODE    : DEVELOPMENT                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
+```
 
-04 // CURRENT_BUILD
+---
+
+# `04 // CURRENT_BUILD`
 
 <div align="center">
 
-rx-msg
+## `rx-msg`
 
 <a href="https://github.com/Old-Rx/rx-msg">
   <img
@@ -220,6 +242,7 @@ rx-msg
 
 </div>
 
+```text
 REPOSITORY SIGNAL
 ──────────────────────────────────────────────────────────────────────
 OWNER       : Old-Rx
@@ -230,16 +253,19 @@ BRANCH      : main
 LICENSE     : AGPL-3.0
 STATUS      : ACTIVE
 ──────────────────────────────────────────────────────────────────────
+```
 
-05 // DEVELOPMENT_CORE
+---
+
+# `05 // DEVELOPMENT_CORE`
 
 <div align="center">
 
-CURRENT PUBLIC LANGUAGE SIGNAL
+### `CURRENT PUBLIC LANGUAGE SIGNAL`
 
 <img
-src="https://skillicons.dev/icons?i=haskell,git,github&theme=dark&perline=3"
-alt="Current public stack signal"
+  src="https://skillicons.dev/icons?i=haskell,git,github&theme=dark&perline=3"
+  alt="Current public stack signal"
 />
 
 <br/><br/>
@@ -250,10 +276,13 @@ alt="Current public stack signal"
 
 </div>
 
-This section stays intentionally focused on technologies visible in the current public profile instead of claiming a giant fake stack.
+> This section stays intentionally focused on technologies visible in the current public profile instead of claiming a giant fake stack.
 
-06 // DEVELOPMENT_PROTOCOL
+---
 
+# `06 // DEVELOPMENT_PROTOCOL`
+
+```text
 ┌──────────────────────────────────────────────────────────────────────┐
 │                       RX DEVELOPMENT LOOP                            │
 ├──────────────────────────────────────────────────────────────────────┤
@@ -285,9 +314,13 @@ This section stays intentionally focused on technologies visible in the current 
 │            └──────────────► REPEAT                                   │
 │                                                                      │
 └──────────────────────────────────────────────────────────────────────┘
+```
 
-07 // TERMINAL
+---
 
+# `07 // TERMINAL`
+
+```console
 root@rx-development:~# whoami
 Old-Rx
 
@@ -325,99 +358,111 @@ root@rx-development:~# ./build-rx
 BUILD SUCCESSFUL.
 
 root@rx-development:~# _
+```
 
-08 // SYSTEM_STATS
+---
+
+# `08 // SYSTEM_STATS`
 
 <div align="center">
 
 <img
-width="49%"
-src="https://github-readme-stats.vercel.app/api?username=Old-Rx&show_icons=true&count_private=true&hide_border=true&bg_color=090909&title_color=ff3131&icon_color=ff3131&text_color=eeeeee&ring_color=ff1f1f"
-alt="Old-Rx GitHub stats"
+  width="49%"
+  src="https://github-readme-stats.vercel.app/api?username=Old-Rx&show_icons=true&count_private=true&hide_border=true&bg_color=090909&title_color=ff3131&icon_color=ff3131&text_color=eeeeee&ring_color=ff1f1f"
+  alt="Old-Rx GitHub stats"
 />
 
 <img
-width="49%"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=Old-Rx&layout=compact&langs_count=8&hide_border=true&bg_color=090909&title_color=ff3131&text_color=eeeeee"
-alt="Old-Rx top languages"
+  width="49%"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=Old-Rx&layout=compact&langs_count=8&hide_border=true&bg_color=090909&title_color=ff3131&text_color=eeeeee"
+  alt="Old-Rx top languages"
 />
 
 <br/><br/>
 
 <img
-width="78%"
-src="https://streak-stats.demolab.com?user=Old-Rx&hide_border=true&background=090909&ring=FF1F1F&fire=FF3131&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF3131&sideLabels=FF6B6B&dates=888888"
-alt="Old-Rx streak"
+  width="78%"
+  src="https://streak-stats.demolab.com?user=Old-Rx&hide_border=true&background=090909&ring=FF1F1F&fire=FF3131&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF3131&sideLabels=FF6B6B&dates=888888"
+  alt="Old-Rx streak"
 />
 
 </div>
 
-09 // CONTRIBUTION_RADAR
+---
+
+# `09 // CONTRIBUTION_RADAR`
 
 <div align="center">
 
 <img
-width="100%"
-src="https://github-readme-activity-graph.vercel.app/graph?username=Old-Rx&bg_color=090909&color=ff6b6b&line=ff1f1f&point=ffffff&area=true&area_color=60000f&hide_border=true&custom_title=RX-DEVELOPMENT%20%2F%2F%20RED%20RADAR"
-alt="Old-Rx contribution graph"
+  width="100%"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=Old-Rx&bg_color=090909&color=ff6b6b&line=ff1f1f&point=ffffff&area=true&area_color=60000f&hide_border=true&custom_title=RX-DEVELOPMENT%20%2F%2F%20RED%20RADAR"
+  alt="Old-Rx contribution graph"
 />
 
 </div>
 
-10 // PROFILE_ANALYTICS
+---
+
+# `10 // PROFILE_ANALYTICS`
 
 <div align="center">
 
 <img
-width="49%"
-src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Old-Rx&theme=radical"
-alt="Repos per language"
+  width="49%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Old-Rx&theme=radical"
+  alt="Repos per language"
 />
 
 <img
-width="49%"
-src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Old-Rx&theme=radical"
-alt="Most commit language"
+  width="49%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Old-Rx&theme=radical"
+  alt="Most commit language"
 />
 
 <br/>
 
 <img
-width="49%"
-src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Old-Rx&theme=radical"
-alt="GitHub statistics"
+  width="49%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Old-Rx&theme=radical"
+  alt="GitHub statistics"
 />
 
 <img
-width="49%"
-src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Old-Rx&theme=radical&utcOffset=3.5"
-alt="Productive time"
+  width="49%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Old-Rx&theme=radical&utcOffset=3.5"
+  alt="Productive time"
 />
 
 <br/>
 
 <img
-width="98%"
-src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Old-Rx&theme=radical"
-alt="Profile details"
+  width="98%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Old-Rx&theme=radical"
+  alt="Profile details"
 />
 
 </div>
 
-11 // TROPHY_ROOM
+---
+
+# `11 // TROPHY_ROOM`
 
 <div align="center">
 
 <img
-width="100%"
-src="https://github-profile-trophy.vercel.app/?username=Old-Rx&theme=radical&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7"
-alt="Old-Rx GitHub trophies"
+  width="100%"
+  src="https://github-profile-trophy.vercel.app/?username=Old-Rx&theme=radical&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=7"
+  alt="Old-Rx GitHub trophies"
 />
 
 </div>
 
-12 // ACHIEVEMENTS
+---
 
+# `12 // ACHIEVEMENTS`
+
+```text
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                           ACHIEVEMENTS                               ║
 ╠══════════════════════════════════════════════════════════════════════╣
@@ -438,9 +483,13 @@ alt="Old-Rx GitHub trophies"
 ║                Requirement hidden.                                  ║
 ║                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
+```
 
-13 // MISSION_BOARD
+---
 
+# `13 // MISSION_BOARD`
+
+```text
 ACTIVE MISSIONS
 ──────────────────────────────────────────────────────────────────────
 
@@ -460,65 +509,36 @@ ACTIVE MISSIONS
                                               LOCKED
 
 ──────────────────────────────────────────────────────────────────────
+```
 
-QUEST LOG
+### `QUEST LOG`
 
-[COMPLETE] Establish Old-Rx profile identity
+- `[COMPLETE]` Establish **Old-Rx** profile identity
+- `[COMPLETE]` Establish **RX-Development** codename
+- `[COMPLETE]` Switch visual system to **red + black**
+- `[ACTIVE]` Build and maintain public repositories
+- `[ACTIVE]` Improve the profile as new projects appear
+- `[NEXT]` Add pinned project showcases
+- `[NEXT]` Add release / build badges
+- `[NEXT]` Unlock the next RX mission
 
-[COMPLETE] Establish RX-Development codename
+---
 
-[COMPLETE] Switch visual system to red + black
+# `14 // BOSS_FIGHTS`
 
-[ACTIVE] Build and maintain public repositories
+| Boss | Threat Level | RX Counter |
+|:--|:--:|:--|
+| `BUG` | 🔴🔴🔴 | isolate → reproduce → fix |
+| `BUILD ERROR` | 🔴🔴 | inspect → patch → rebuild |
+| `MERGE CONFLICT` | 🔴🔴🔴 | compare → resolve → verify |
+| `REGRESSION` | 🔴🔴🔴🔴 | trace → revert/fix → test |
+| `PRODUCTION` | 🔴🔴🔴🔴🔴 | prepare → deploy → observe |
 
-[ACTIVE] Improve the profile as new projects appear
+---
 
-[NEXT] Add pinned project showcases
+# `15 // RED_PROTOCOL`
 
-[NEXT] Add release / build badges
-
-[NEXT] Unlock the next RX mission
-
-14 // BOSS_FIGHTS
-
-Boss
-
-Threat Level
-
-RX Counter
-
-BUG
-
-🔴🔴🔴
-
-isolate → reproduce → fix
-
-BUILD ERROR
-
-🔴🔴
-
-inspect → patch → rebuild
-
-MERGE CONFLICT
-
-🔴🔴🔴
-
-compare → resolve → verify
-
-REGRESSION
-
-🔴🔴🔴🔴
-
-trace → revert/fix → test
-
-PRODUCTION
-
-🔴🔴🔴🔴🔴
-
-prepare → deploy → observe
-
-15 // RED_PROTOCOL
-
+```diff
 + WRITE CODE THAT HAS A PURPOSE
 + KEEP THE SYSTEM UNDERSTANDABLE
 + DEBUG BEFORE GUESSING
@@ -530,9 +550,13 @@ prepare → deploy → observe
 - NO RANDOM COMPANY BRANDING
 - NO EMPTY BUZZWORDS
 - NO COPY-PASTE IDENTITY
+```
 
-16 // SYSTEM_MAP
+---
 
+# `16 // SYSTEM_MAP`
+
+```text
                               ┌─────────────────────┐
                               │       OLD-RX        │
                               │      [ PLAYER ]     │
@@ -558,9 +582,13 @@ prepare → deploy → observe
                               │    REPOSITORIES     │
                               │      rx-msg         │
                               └─────────────────────┘
+```
 
-17 // RX_SOURCE
+---
 
+# `17 // RX_SOURCE`
+
+```haskell
 module RXDevelopment where
 
 data Player = Player
@@ -584,9 +612,13 @@ build target =
 
 main :: IO ()
 main = putStrLn (build "RX-DEVELOPMENT")
+```
 
-18 // ERROR_LOG
+---
 
+# `18 // ERROR_LOG`
+
+```text
 RX ERROR DATABASE
 ──────────────────────────────────────────────────────────────────────
 
@@ -611,8 +643,11 @@ ERROR 005:
   Solution : You are now the documentation.
 
 ──────────────────────────────────────────────────────────────────────
+```
 
-19 // REPOSITORY_PORTAL
+---
+
+# `19 // REPOSITORY_PORTAL`
 
 <div align="center">
 
@@ -628,6 +663,7 @@ ERROR 005:
 
 <br/>
 
+```text
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                         REPOSITORY NETWORK                           ║
 ╠══════════════════════════════════════════════════════════════════════╣
@@ -639,20 +675,26 @@ ERROR 005:
 ║   NEXT REPOSITORY ──────────────► [ LOCKED ]                         ║
 ║                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
+```
 
-20 // SIGNAL
+---
+
+# `20 // SIGNAL`
 
 <div align="center">
 
 <img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=1900&pause=500&color=FF3131&center=true&vCenter=true&repeat=true&width=900&height=75&lines=OLD-RX+ONLINE;RX-DEVELOPMENT+ACTIVE;RED+PROTOCOL+ENABLED;BUILD+%E2%86%92+DEBUG+%E2%86%92+SHIP;WAITING+FOR+NEXT+MISSION..."
-alt="Old-Rx signal"
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=1900&pause=500&color=FF3131&center=true&vCenter=true&repeat=true&width=900&height=75&lines=OLD-RX+ONLINE;RX-DEVELOPMENT+ACTIVE;RED+PROTOCOL+ENABLED;BUILD+%E2%86%92+DEBUG+%E2%86%92+SHIP;WAITING+FOR+NEXT+MISSION..."
+  alt="Old-Rx signal"
 />
 
 </div>
 
-21 // ROADMAP
+---
 
+# `21 // ROADMAP`
+
+```text
 RX-DEVELOPMENT // ROADMAP
 
 STAGE 01
@@ -678,9 +720,13 @@ OPEN SOURCE EXPANSION
 STAGE 06
 ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   10%
 NEXT RX ERA
+```
 
-22 // FINAL_BOSS
+---
 
+# `22 // FINAL_BOSS`
+
+```text
                            █████████████████
                         ███               ███
                       ██                     ██
@@ -702,11 +748,15 @@ NEXT RX ERA
                                 │
                                 ▼
                          MISSION COMPLETE
+```
 
-23 // FINAL_CHECKPOINT
+---
+
+# `23 // FINAL_CHECKPOINT`
 
 <div align="center">
 
+```text
 ╔══════════════════════════════════════════════════════════════════════╗
 ║                                                                      ║
 ║                       FINAL CHECKPOINT                               ║
@@ -720,10 +770,11 @@ NEXT RX ERA
 ║             BUILD • BREAK • DEBUG • REBUILD • SHIP                  ║
 ║                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════╝
+```
 
 <img
-src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&weight=700&size=14&duration=1800&pause=700&color=FF1F1F&center=true&vCenter=true&repeat=true&width=900&height=70&lines=THANKS+FOR+ENTERING+THE+RED+ZONE;PLAYER+OLD-RX+CONNECTED;RX-DEVELOPMENT+WILL+RETURN;SEE+YOU+IN+THE+NEXT+COMMIT"
-alt="Footer animation"
+  src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&weight=700&size=14&duration=1800&pause=700&color=FF1F1F&center=true&vCenter=true&repeat=true&width=900&height=70&lines=THANKS+FOR+ENTERING+THE+RED+ZONE;PLAYER+OLD-RX+CONNECTED;RX-DEVELOPMENT+WILL+RETURN;SEE+YOU+IN+THE+NEXT+COMMIT"
+  alt="Footer animation"
 />
 
 <br/>
@@ -739,9 +790,9 @@ alt="Footer animation"
 <br/><br/>
 
 <img
-width="100%"
-src="https://capsule-render.vercel.app/api?type=waving&height=170&section=footer&color=0:FF1F1F,45:7A0014,75:250006,100:050505"
-alt="Red footer"
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&height=170&section=footer&color=0:FF1F1F,45:7A0014,75:250006,100:050505"
+  alt="Red footer"
 />
 
 </div>
