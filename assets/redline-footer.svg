@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190">
-<rect width="1200" height="190" rx="18" fill="#050506"/>
-<path d="M0 103 C100 25,200 170,300 103 S500 25,600 103 S800 170,900 103 S1100 25,1200 103" fill="none" stroke="#ff314f" stroke-width="3">
-<animate attributeName="d" values="M0 103 C100 25,200 170,300 103 S500 25,600 103 S800 170,900 103 S1100 25,1200 103;M0 103 C100 170,200 25,300 103 S500 170,600 103 S800 25,900 103 S1100 170,1200 103;M0 103 C100 25,200 170,300 103 S500 25,600 103 S800 170,900 103 S1100 25,1200 103" dur="2.5s" repeatCount="indefinite"/></path>
-<text x="600" y="75" text-anchor="middle" font-family="monospace" font-size="30" font-weight="700" fill="#fff">RX-DEVELOPMENT</text>
-<text x="600" y="145" text-anchor="middle" font-family="monospace" font-size="16" fill="#ff7184">BUILD // DEBUG // SHIP // REPEAT</text>
-</svg>
