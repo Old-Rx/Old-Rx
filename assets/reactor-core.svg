@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280">
+<defs><filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="280" rx="18" fill="#070708" stroke="#4e000f"/>
+<text x="42" y="38" font-family="monospace" font-size="18" fill="#ff334f">REACTOR CORE // DEVELOPMENT ENGINE</text>
+<g transform="translate(220 145)" filter="url(#g)">
+<circle r="86" fill="none" stroke="#500010" stroke-width="10"/>
+<circle r="66" fill="none" stroke="#ff314f" stroke-width="4" stroke-dasharray="15 13"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="5s" repeatCount="indefinite"/></circle>
+<circle r="46" fill="none" stroke="#a90020" stroke-width="4" stroke-dasharray="8 12"><animateTransform attributeName="transform" type="rotate" values="360;0" dur="3.8s" repeatCount="indefinite"/></circle>
+<circle r="24" fill="#ff314f" opacity=".16"><animate attributeName="r" values="18;30;18" dur="1.8s" repeatCount="indefinite"/></circle><circle r="10" fill="#fff" stroke="#ff314f" stroke-width="4"/>
+</g>
+<g font-family="monospace" font-size="16">
+<text x="370" y="86" fill="#ff7084">FRONTEND CORE</text><text x="370" y="128" fill="#ff7084">BACKEND CORE</text>
+<text x="370" y="170" fill="#ff7084">DATA CORE</text><text x="370" y="212" fill="#ff7084">DEVOPS CORE</text>
+<g fill="#250007"><rect x="520" y="72" width="555" height="16" rx="8"/><rect x="520" y="114" width="555" height="16" rx="8"/><rect x="520" y="156" width="555" height="16" rx="8"/><rect x="520" y="198" width="555" height="16" rx="8"/></g>
+<rect x="520" y="72" height="16" rx="8" fill="#ff314f"><animate attributeName="width" values="0;555;520;555" dur="2.5s" repeatCount="indefinite"/></rect>
+<rect x="520" y="114" height="16" rx="8" fill="#d50026"><animate attributeName="width" values="0;0;535;500;535" keyTimes="0;.15;.72;.88;1" dur="3.1s" repeatCount="indefinite"/></rect>
+<rect x="520" y="156" height="16" rx="8" fill="#b00020"><animate attributeName="width" values="0;0;500;555" keyTimes="0;.25;.82;1" dur="3.6s" repeatCount="indefinite"/></rect>
+<rect x="520" y="198" height="16" rx="8" fill="#880018"><animate attributeName="width" values="0;470;555;470" dur="2.9s" repeatCount="indefinite"/></rect>
+</g></svg>

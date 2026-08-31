@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+<rect width="1200" height="220" rx="18" fill="#070708" stroke="#5b0011"/>
+<text x="42" y="38" font-family="monospace" font-size="19" fill="#ff334f">FINAL BOSS // PRODUCTION</text>
+<rect x="65" y="82" width="1070" height="30" rx="15" fill="#260007"/>
+<rect x="65" y="82" width="1070" height="30" rx="15" fill="#ff314f"><animate attributeName="width" values="1070;990;1040;905;970;1070" dur="3s" repeatCount="indefinite"/></rect>
+<text x="600" y="103" text-anchor="middle" font-family="monospace" font-size="14" fill="#fff">PRODUCTION HP</text>
+<text x="65" y="162" font-family="monospace" font-size="16" fill="#ff7184">TEST → DEBUG → PATCH → DEPLOY → OBSERVE → SURVIVE</text>
+</svg>
