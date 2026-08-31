@@ -1,6 +1,6 @@
-# CINEMATIC AUTO — SETUP
+# CINEMATIC 4K FIXED — SETUP
 
-This version is designed so the animations start automatically.
+This version fixes the box overflow problem and rebuilds the GIFs in 4K width.
 
 ## Repository structure
 
@@ -8,37 +8,29 @@ This version is designed so the animations start automatically.
 Old-Rx/Old-Rx
 ├── README.md
 ├── assets/
-│   ├── hero-auto.gif
-│   ├── rx-auto-game.gif
-│   ├── terminal-auto.gif
-│   ├── tech-orbit.gif
-│   ├── project-radar.gif
-│   ├── pipeline-auto.gif
-│   ├── observability.gif
-│   ├── boss-auto.gif
-│   └── footer-auto.gif
+│   ├── hero-4k.gif
+│   ├── rx-auto-run-4k.gif
+│   ├── terminal-4k.gif
+│   ├── tech-universe-4k.gif
+│   ├── project-radar-4k.gif
+│   ├── pipeline-4k.gif
+│   ├── observability-4k.gif
+│   ├── production-boss-4k.gif
+│   └── footer-4k.gif
 └── docs/
     ├── index.html
     ├── style.css
     ├── app.js
     └── assets/
-        └── copies of the GIF assets
 ```
 
-## Enable the full interactive / animated page
+## Enable GitHub Pages
+Settings → Pages → Deploy from a branch → `main` → `/docs`
 
-GitHub repo → Settings → Pages
-
-- Source: Deploy from a branch
-- Branch: main
-- Folder: /docs
-
-Expected URL:
-
-`https://old-rx.github.io/Old-Rx/`
-
-## Important
-
-There is no manual Play button in this version.
-The GIFs in README loop automatically.
-The GitHub Pages animations also start automatically on page load.
+## Replace old version
+1. Delete old README.md
+2. Delete old assets folder contents
+3. Upload the new README.md
+4. Upload the new assets folder
+5. Upload the docs folder
+6. Commit and push
