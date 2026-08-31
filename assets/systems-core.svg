@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="275" viewBox="0 0 1200 275">
+<rect width="1200" height="275" rx="18" fill="#06070b" stroke="#415171"/>
+<text x="42" y="38" font-family="monospace" font-size="18" fill="#ff3150">SYSTEMS CORE // LOW-LEVEL &amp; PERFORMANCE</text>
+<text x="70" y="92" font-family="monospace" font-size="16" fill="#98dcff">C / C++</text><text x="240" y="92" font-family="monospace" font-size="16" fill="#e7f7ff">native apps, engines, performance-heavy software</text>
+<text x="70" y="126" font-family="monospace" font-size="16" fill="#ff92a6">Rust</text><text x="240" y="126" font-family="monospace" font-size="16" fill="#ffe7ec">memory safety and systems programming</text>
+<text x="70" y="160" font-family="monospace" font-size="16" fill="#98dcff">Go</text><text x="240" y="160" font-family="monospace" font-size="16" fill="#e7f7ff">network and infrastructure services</text>
+<text x="70" y="194" font-family="monospace" font-size="16" fill="#ff92a6">Bash / PowerShell</text><text x="240" y="194" font-family="monospace" font-size="16" fill="#ffe7ec">automation on Linux and Windows</text>
+<text x="70" y="228" font-family="monospace" font-size="16" fill="#98dcff">Haskell</text><text x="240" y="228" font-family="monospace" font-size="16" fill="#e7f7ff">functional composition and public repo signal</text>
+</svg>
