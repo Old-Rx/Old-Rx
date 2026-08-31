@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#030303"/>
+      <stop offset=".45" stop-color="#160003"/>
+      <stop offset=".75" stop-color="#4a0008"/>
+      <stop offset="1" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="3" fill="#ff243f">
+    <animate attributeName="x" values="-1200;1200" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+
+  <g opacity=".2">
+    <path d="M0 50H1200M0 100H1200M0 150H1200M0 200H1200M0 250H1200M0 300H1200" stroke="#ff2d47"/>
+    <path d="M100 0V320M200 0V320M300 0V320M400 0V320M500 0V320M600 0V320M700 0V320M800 0V320M900 0V320M1000 0V320M1100 0V320" stroke="#6b0011"/>
+  </g>
+
+  <circle cx="600" cy="155" r="115" fill="#ff1234" opacity=".06" filter="url(#soft)">
+    <animate attributeName="r" values="95;125;95" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".03;.12;.03" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <g font-family="monospace" text-anchor="middle" filter="url(#glow)">
+    <text x="600" y="145" font-size="76" font-weight="700" fill="#ff3149">OLD-RX</text>
+    <text x="600" y="145" font-size="76" font-weight="700" fill="#ffffff" opacity=".85">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -3 0; 4 0; 0 0; 2 0; 0 0" dur=".95s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".85;.2;.85;.55;.9" dur=".95s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <text x="600" y="198" text-anchor="middle" font-family="monospace" font-size="24" fill="#ff6b7d">
+    RX-DEVELOPMENT // RED PROTOCOL
+  </text>
+
+  <g font-family="monospace" font-size="16" fill="#ff435b">
+    <text x="50" y="35">SYS://ONLINE</text>
+    <text x="970" y="35">ROOT ACCESS</text>
+    <text x="50" y="292">SIGNAL: STABLE</text>
+    <text x="970" y="292">MODE: BUILD</text>
+  </g>
+
+  <rect x="130" y="235" width="940" height="3" rx="2" fill="#3b0710"/>
+  <rect x="130" y="235" width="940" height="3" rx="2" fill="#ff304a">
+    <animate attributeName="width" values="0;940;0" keyTimes="0;.72;1" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="0" y="0" width="1200" height="320" fill="none" stroke="#ff2d47" opacity=".4"/>
+</svg>
