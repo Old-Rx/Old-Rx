@@ -1,4 +1,4 @@
-# OLD-RX QUANTUM REDLINE — INSTALL
+# OLD-RX AURORA OVERDRIVE — INSTALL
 
 Upload these items to the root of `Old-Rx/Old-Rx`:
 
@@ -6,32 +6,37 @@ Upload these items to the root of `Old-Rx/Old-Rx`:
 Old-Rx/Old-Rx
 ├── README.md
 └── assets/
-    ├── quantum-hero.svg
-    ├── rx-arcade.svg
-    ├── command-center.svg
-    ├── tech-orbit.svg
-    ├── frontend-map.svg
-    ├── backend-map.svg
-    ├── database-map.svg
-    ├── devops-lane.svg
-    ├── security-gate.svg
+    ├── aurora-hero.svg
+    ├── rx-overdrive.svg
+    ├── command-matrix.svg
+    ├── tech-nebula.svg
+    ├── frontend-spectrum.svg
+    ├── backend-flow.svg
+    ├── database-atlas.svg
+    ├── devops-runway.svg
+    ├── security-shield.svg
     ├── architecture-grid.svg
     ├── project-beacon.svg
-    ├── delivery-pipeline.svg
+    ├── pipeline-hud.svg
+    ├── code-rain.svg
+    ├── systems-core.svg
+    ├── cloud-bridge.svg
+    ├── toolbench.svg
+    ├── mission-board.svg
     ├── commit-hunter.svg
     ├── production-boss.svg
-    ├── mission-board.svg
-    └── quantum-footer.svg
+    └── aurora-footer.svg
 ```
 
-If you are replacing an older version:
+If replacing an older version:
 1. Delete the old `README.md`
 2. Delete old files inside `assets/`
-3. Upload this new `README.md`
-4. Upload this new `assets/` folder
+3. Upload the new `README.md`
+4. Upload the new `assets/` folder
+5. Commit and push
 
 Notes:
-- The main cinematic parts are local SVGs
-- Technology icons use `skillicons.dev`
-- Badges use `shields.io`
-- This version is intentionally heavier on information inside the SVGs
+- Main cinematic sections are local SVGs
+- skill icons use `skillicons.dev`
+- badges use `shields.io`
+- theme is intentionally red-first with blue accent support

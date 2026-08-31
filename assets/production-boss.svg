@@ -1,12 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="235" viewBox="0 0 1200 235">
-<rect width="1200" height="235" rx="18" fill="#070708" stroke="#5b0011"/>
-<text x="42" y="38" font-family="monospace" font-size="19" fill="#ff334f">PRODUCTION BOSS // STABILIZE THE SYSTEM</text>
-<rect x="65" y="82" width="1070" height="30" rx="15" fill="#260007"/>
-<rect x="65" y="82" width="1070" height="30" rx="15" fill="#ff314f"><animate attributeName="width" values="1070;996;1042;920;976;1070" dur="3.2s" repeatCount="indefinite"/></rect>
-<text x="600" y="103" text-anchor="middle" font-family="monospace" font-size="14" fill="#ffffff">PRODUCTION HP</text>
-<g font-family="monospace" font-size="16" fill="#ff7487">
-  <text x="65" y="162">PHASE 1  local build succeeds</text><text x="65" y="184">PHASE 2  environment differences appear</text>
-  <text x="600" y="162">PHASE 3  traffic hits real paths</text><text x="600" y="184">PHASE 4  logs expose edge cases</text>
-  <text x="65" y="212">PHASE 5  patch, observe and stabilize</text>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="238" height="300" viewBox="0 0 238 300">
+<rect width="238" height="300" rx="18" fill="#06070b" stroke="#415171"/>
+<text x="42" y="38" font-family="monospace" font-size="18" fill="#ff3150">PRODUCTION BOSS // STABILIZE THE SYSTEM</text>
+<rect x="65" y="84" width="1070" height="30" rx="15" fill="#1a0b12"/><rect x="65" y="84" width="1070" height="30" rx="15" fill="#ff3150"><animate attributeName="width" values="1070;1000;1040;920;980;1070" dur="3.1s" repeatCount="indefinite"/></rect><rect x="65" y="84" width="1070" height="30" rx="15" fill="#46b6ff" opacity=".35"><animate attributeName="width" values="1070;980;1010;900;970;1070" dur="3.1s" repeatCount="indefinite"/></rect><text x="600" y="105" text-anchor="middle" font-family="monospace" font-size="14" fill="#fff">PRODUCTION HP</text><text x="65" y="163" font-family="monospace" font-size="16" fill="#98dcff">PHASE 1  local build succeeds</text><text x="65" y="186" font-family="monospace" font-size="16" fill="#ffc5cf">PHASE 2  environment differences appear</text><text x="600" y="163" font-family="monospace" font-size="16" fill="#98dcff">PHASE 3  traffic exposes real paths</text><text x="600" y="186" font-family="monospace" font-size="16" fill="#ffc5cf">PHASE 4  logs reveal edge cases</text><text x="65" y="214" font-family="monospace" font-size="16" fill="#caecff">PHASE 5  patch, observe, stabilize, improve</text></svg>
