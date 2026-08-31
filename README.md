@@ -1,7 +1,6 @@
 <!--
 OLD-RX // RX-DEVELOPMENT
-REDLINE APEX EXPANDED
-ANIMATED RED CYBER PROFILE
+REDLINE APEX // RELIABILITY-FIRST PROFILE
 -->
 
 <div align="center">
@@ -23,354 +22,242 @@ ANIMATED RED CYBER PROFILE
 <a href="https://github.com/Old-Rx/rx-msg">
   <img src="https://img.shields.io/badge/OPEN%20CURRENT%20BUILD-790016?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-<img src="https://komarev.com/ghpvc/?username=Old-Rx&label=PROFILE%20VISITS&color=ff314f&style=for-the-badge"/>
 
 </div>
 
 ---
-
-<div align="center">
 
 # `REDLINE://LIVE NODE`
 
+<div align="center">
+
 <img width="100%" src="https://raw.githubusercontent.com/Old-Rx/Old-Rx/main/assets/live-terminal.svg" alt="Live Terminal"/>
 
-<img width="100%" src="https://raw.githubusercontent.com/Old-Rx/Old-Rx/main/assets/reactor-core.svg" alt="Reactor Core"/>
+<img width="100%" src="https://raw.githubusercontent.com/Old-Rx/Old-Rx/main/assets/command-center.svg" alt="Redline Command Center"/>
 
 </div>
 
 ```text
-╔══════════════════════════════════════════════════════════════════════╗
-║  PLAYER        : OLD-RX                                             ║
-║  CODENAME      : RX-DEVELOPMENT                                     ║
-║  PROTOCOL      : REDLINE APEX                                       ║
-║  ACCESS        : ROOT                                               ║
-║  CURRENT BUILD : rx-msg                                             ║
-║  STATE         : ONLINE                                             ║
-╚══════════════════════════════════════════════════════════════════════╝
+PLAYER        : OLD-RX
+CODENAME      : RX-DEVELOPMENT
+PROTOCOL      : REDLINE APEX
+ACCESS        : ROOT
+CURRENT BUILD : rx-msg
+STATE         : ONLINE
 ```
+
+## `QUICK NAVIGATION`
+
+<div align="center">
+
+[RX Arcade](#01--rx-arcade) •
+[Technology Map](#02--technology-map) •
+[Engineering](#03--engineering-core) •
+[Current Build](#04--current-public-build) •
+[Pipeline](#05--delivery-pipeline) •
+[Production](#07--production-boss) •
+[Mission Board](#09--mission-board)
+
+</div>
 
 ## `WHO IS OLD-RX?`
 
-`Old-Rx` is the identity behind **RX-Development** — a black/crimson developer profile built around a simple engineering game loop:
+**Old-Rx** is the identity behind **RX-Development**. The profile is designed like a live developer HUD instead of a conventional résumé.
 
-> **Understand → Design → Build → Break → Debug → Improve → Ship → Repeat**
+The core loop is:
 
-The profile is designed like a live system rather than a conventional résumé. The animations represent real development stages: booting systems, collecting requirements, building features, detecting failures, observing production and shipping stable releases.
+> **Understand → Design → Build → Test → Debug → Deploy → Observe → Improve**
+
+The red/black game theme is visual, but the structure underneath it is engineering-focused: technologies are grouped by purpose, the current public project is separated from the general technology map, and the important animations are stored locally in this repository so the profile does not collapse when a third-party stats service fails.
 
 ---
 
-# `01 // RX ARCADE — LETTER RUN`
+# `01 // RX ARCADE`
 
-The opening animation builds the codename through 14 checkpoints:
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/Old-Rx/Old-Rx/main/assets/rx-letter-run.svg" alt="RX Letter Run"/>
+
+</div>
+
+The opening mini-game assembles the codename through fourteen checkpoints:
 
 ```text
-R → RX → RX- → RX-D → RX-DE → RX-DEV
-→ RX-DEVE → RX-DEVEL → RX-DEVELO
-→ RX-DEVELOP → RX-DEVELOPM
-→ RX-DEVELOPME → RX-DEVELOPMEN
-→ RX-DEVELOPMENT
+R → RX → RX- → RX-D → RX-DE → RX-DEV → RX-DEVE
+→ RX-DEVEL → RX-DEVELO → RX-DEVELOP → RX-DEVELOPM
+→ RX-DEVELOPME → RX-DEVELOPMEN → RX-DEVELOPMENT
 ```
 
-**Mission result:** `RX-DEVELOPMENT UNLOCKED // +999 XP`
+**Mission reward:** `RX-DEVELOPMENT UNLOCKED // +999 XP`
 
 ---
 
 # `02 // TECHNOLOGY MAP`
 
-> The stack is organized by **what each technology is for**. This is a system map, not an unstructured icon wall.
-
-## `FRONTEND // USER INTERFACE LAYER`
-
 <div align="center">
 
+<img width="100%" src="https://raw.githubusercontent.com/Old-Rx/Old-Rx/main/assets/tech-orbit.svg" alt="Technology Orbit"/>
+
+</div>
+
+> This is a **categorized technology ecosystem**, not a claim that every icon represents the same level of expertise. The purpose is to show where tools belong and what kinds of problems they solve.
+
+## `FRONTEND // USER INTERFACE`
+
+<div align="center">
 <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,vue,nuxtjs,angular,svelte,tailwind,bootstrap,materialui,redux,vite,webpack,threejs&theme=dark&perline=9" alt="Frontend technologies"/>
-
 </div>
 
-Frontend technologies build what the user directly **sees and interacts with**: layouts, pages, forms, state, transitions, visual systems and browser-side application logic.
+**Purpose:** everything the user sees and interacts with in the browser.
 
-| Technology | Primary purpose |
-|:--|:--|
-| HTML | Semantic page structure, forms and document content |
-| CSS | Layout, styling, responsive design and animation |
-| Sass | More structured and reusable CSS authoring |
-| JavaScript | Browser logic, events, interaction and application behavior |
-| TypeScript | Safer JavaScript through static typing |
-| React | Component-driven interactive interfaces |
-| Next.js | React framework for routing, rendering and full-stack web apps |
-| Vue | Progressive frontend component framework |
-| Nuxt | Full-stack framework built around Vue |
-| Angular | Structured application framework for large frontend systems |
-| Svelte | Compiler-driven reactive frontend development |
-| Tailwind CSS | Utility-first styling and fast design-system construction |
-| Bootstrap | Responsive UI components and layout utilities |
-| Material UI | React component library based on Material Design |
-| Redux | Predictable global application state |
-| Vite | Fast frontend development/build tooling |
-| Webpack | Bundling and complex frontend asset pipelines |
-| Three.js | Browser-based 3D graphics and scenes |
-
-### Frontend data flow
+- **HTML / CSS / Sass** — structure, layout, responsive design and visual styling.
+- **JavaScript / TypeScript** — browser behavior, state, events and typed application logic.
+- **React / Vue / Angular / Svelte** — component-based UI architecture.
+- **Next.js / Nuxt** — framework-level routing, rendering and full-stack web features.
+- **Tailwind / Bootstrap / Material UI** — design systems, utilities and reusable UI components.
+- **Redux** — centralized application state.
+- **Vite / Webpack** — development servers, bundling and frontend build pipelines.
+- **Three.js** — interactive browser 3D.
 
 ```text
-USER INPUT
-    ↓
-COMPONENT
-    ↓
-STATE
-    ↓
-RENDER
-    ↓
-API REQUEST
-    ↓
-UPDATED INTERFACE
+USER → COMPONENT → STATE → RENDER → API → UPDATED UI
 ```
 
----
-
-## `BACKEND // SERVER & API LAYER`
+## `BACKEND // API & BUSINESS LOGIC`
 
 <div align="center">
-
 <img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,php,laravel,symfony,python,django,flask,fastapi,java,spring,cs,dotnet,go,rust,ruby,rails,graphql&theme=dark&perline=10" alt="Backend technologies"/>
-
 </div>
 
-Backend technologies handle the parts users do not directly see: **APIs, authentication, authorization, business rules, queues, integrations, data access and server-side execution**.
+**Purpose:** APIs, authentication, authorization, business rules, integrations, jobs and server-side execution.
 
-| Technology | Primary purpose |
-|:--|:--|
-| Node.js | Server-side JavaScript/TypeScript runtime |
-| Express | Lightweight Node.js HTTP servers and REST APIs |
-| NestJS | Structured TypeScript backend applications |
-| PHP | Server-side web applications and APIs |
-| Laravel | PHP framework with routing, ORM, queues and authentication |
-| Symfony | Modular PHP framework and reusable server components |
-| Python | Backend services, scripting and automation |
-| Django | Full-featured Python web framework |
-| Flask | Lightweight Python web services |
-| FastAPI | Typed high-performance Python APIs |
-| Java | JVM backend services and large application systems |
-| Spring | Enterprise Java services, APIs and dependency injection |
-| C# | Server applications, APIs and .NET services |
-| .NET | Microsoft application platform for server and desktop workloads |
-| Go | Fast concurrent network and backend services |
-| Rust | Memory-safe high-performance services and systems |
-| Ruby | Dynamic application development |
-| Rails | Convention-driven Ruby web development |
-| GraphQL | Schema-based API query layer |
-
-### Backend request path
+- **Node.js / Express / NestJS** — JavaScript and TypeScript server applications.
+- **PHP / Laravel / Symfony** — server-side web applications and structured APIs.
+- **Python / Django / Flask / FastAPI** — services, automation and web APIs.
+- **Java / Spring** — JVM services and large structured backend systems.
+- **C# / .NET** — APIs, services and Microsoft application workloads.
+- **Go / Rust** — efficient concurrent or performance-sensitive services.
+- **Ruby / Rails** — convention-driven web application development.
+- **GraphQL** — schema-based API query layer.
 
 ```text
-CLIENT
-  ↓
-ROUTER
-  ↓
-AUTHENTICATION
-  ↓
-VALIDATION
-  ↓
-BUSINESS LOGIC
-  ↓
-DATABASE / CACHE
-  ↓
-RESPONSE
+CLIENT → ROUTER → AUTH → VALIDATION → LOGIC → DATA → RESPONSE
 ```
 
----
-
-## `SYSTEMS & LOW-LEVEL // PERFORMANCE LAYER`
+## `SYSTEMS // LOW-LEVEL & PERFORMANCE`
 
 <div align="center">
-
 <img src="https://skillicons.dev/icons?i=c,cpp,rust,go,bash,powershell,haskell&theme=dark&perline=7" alt="Systems technologies"/>
-
 </div>
 
-These are useful when a project needs **performance, operating-system access, concurrency, automation, tooling or functional programming**.
+- **C / C++** — native software, engines, embedded work and low-level libraries.
+- **Rust** — memory-safe systems programming.
+- **Go** — infrastructure services, networking and CLI tooling.
+- **Bash / PowerShell** — Linux and Windows automation.
+- **Haskell** — strongly typed functional programming and the language signal of the current `rx-msg` public repository.
 
-| Technology | Typical role |
-|:--|:--|
-| C | Embedded software, systems programming and low-level libraries |
-| C++ | Native applications, engines and performance-heavy software |
-| Rust | Safe systems programming without a garbage collector |
-| Go | Network services, CLI tools and infrastructure software |
-| Bash | Linux automation and deployment scripting |
-| PowerShell | Windows administration and automation |
-| Haskell | Strongly typed functional programming and composable systems |
-
----
-
-## `DATABASES // STORAGE & DATA LAYER`
+## `DATABASES // STORAGE & CACHE`
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite,firebase,supabase&theme=dark&perline=7" alt="Databases"/>
-
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite,firebase,supabase&theme=dark&perline=7" alt="Database technologies"/>
 </div>
 
-The data layer answers: **where does the application persist information, query it, cache it and keep it consistent?**
-
-| Technology | Best suited for |
-|:--|:--|
-| MySQL | Relational web applications and transactional workloads |
-| PostgreSQL | Advanced relational data, complex SQL and strong consistency |
-| MongoDB | Flexible document-oriented data |
-| Redis | Caching, sessions, queues and temporary high-speed data |
-| SQLite | Embedded/local relational storage |
-| Firebase | Managed realtime app services and authentication |
-| Supabase | PostgreSQL-based managed backend with auth, storage and realtime |
-
-### Example data architecture
+- **MySQL / PostgreSQL** — relational transactional data.
+- **MongoDB** — flexible document-oriented storage.
+- **Redis** — cache, sessions, rate limits, queues and temporary state.
+- **SQLite** — embedded/local relational storage.
+- **Firebase / Supabase** — managed backend services with data, auth and realtime capabilities.
 
 ```text
 APPLICATION
-   │
-   ├──► POSTGRES / MYSQL
-   │      ├── users
-   │      ├── permissions
-   │      ├── orders
-   │      └── relations
-   │
-   ├──► MONGODB
-   │      └── flexible documents
-   │
-   └──► REDIS
-          ├── cache
-          ├── sessions
-          ├── rate limits
-          └── temporary state
+  ├─ SQL        → relational data
+  ├─ MongoDB    → flexible documents
+  └─ Redis      → cache / sessions / temporary state
 ```
-
----
 
 ## `MOBILE // CLIENT APPLICATIONS`
 
 <div align="center">
-
 <img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,swift,react&theme=dark&perline=5" alt="Mobile technologies"/>
-
 </div>
 
-| Technology | Primary purpose |
-|:--|:--|
-| Flutter | Cross-platform application UI |
-| Dart | Language used by Flutter |
-| Kotlin | Modern Android and JVM applications |
-| Swift | Native iOS/macOS applications |
-| React ecosystem | React-based cross-platform client development patterns |
+- **Flutter / Dart** — cross-platform application development.
+- **Kotlin** — Android and JVM clients.
+- **Swift** — native Apple-platform applications.
+- **React ecosystem** — component-driven cross-platform client patterns.
 
----
-
-## `DEVOPS // BUILD, DELIVERY & OPERATIONS`
+## `DEVOPS // BUILD, SHIP & OPERATE`
 
 <div align="center">
-
 <img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,docker,kubernetes,nginx,githubactions,jenkins,terraform,ansible,prometheus,grafana&theme=dark&perline=6" alt="DevOps technologies"/>
-
 </div>
 
-DevOps is the layer between **“the code works on my machine”** and **“the system runs reliably in production.”**
+- **Linux / Ubuntu / Debian** — production server environments.
+- **Docker** — reproducible containerized runtimes.
+- **Kubernetes** — orchestration for container fleets.
+- **NGINX** — reverse proxy, routing and TLS termination.
+- **GitHub Actions / Jenkins** — CI/CD automation.
+- **Terraform / Ansible** — infrastructure and server configuration as code.
+- **Prometheus / Grafana** — metrics, monitoring and dashboards.
 
-| Technology | Operational role |
-|:--|:--|
-| Linux | Production server operating environment |
-| Ubuntu / Debian | Common Linux server distributions |
-| Docker | Reproducible containerized environments |
-| Kubernetes | Container orchestration across infrastructure |
-| NGINX | Reverse proxy, TLS termination and traffic routing |
-| GitHub Actions | CI/CD automation from GitHub repositories |
-| Jenkins | Custom CI/CD automation pipelines |
-| Terraform | Infrastructure as code |
-| Ansible | Server configuration and automation |
-| Prometheus | Metrics collection |
-| Grafana | Monitoring dashboards and observability |
-
-### Delivery pipeline
-
-```text
-git push
-   ↓
-CI
-   ├── lint
-   ├── test
-   └── build
-   ↓
-CONTAINER
-   ↓
-SERVER / CLOUD
-   ↓
-NGINX
-   ↓
-APPLICATION
-   ↓
-MONITORING
-```
-
----
-
-## `CLOUD & HOSTING // RUNTIME INFRASTRUCTURE`
+## `CLOUD // RUNTIME INFRASTRUCTURE`
 
 <div align="center">
-
 <img src="https://skillicons.dev/icons?i=aws,azure,gcp,cloudflare,vercel,netlify&theme=dark&perline=6" alt="Cloud platforms"/>
-
 </div>
 
-| Platform | Typical use |
-|:--|:--|
-| AWS | Compute, storage, networking and managed cloud services |
-| Azure | Microsoft cloud infrastructure and enterprise services |
-| Google Cloud | Cloud compute, managed data and platform services |
-| Cloudflare | DNS, CDN, proxying, security and edge services |
-| Vercel | Frontend and Next.js deployment |
-| Netlify | Static/frontend hosting and serverless workflows |
+- **AWS / Azure / Google Cloud** — compute, networking, storage and managed services.
+- **Cloudflare** — DNS, CDN, proxying, security and edge services.
+- **Vercel / Netlify** — frontend-oriented hosting and deployment.
 
----
+## `TOOLING // DEVELOPMENT WORKBENCH`
 
-## `DEVELOPMENT TOOLS // WORKBENCH`
+<div align="center">
+<img src="https://skillicons.dev/icons?i=git,github,gitlab,vscode,visualstudio,idea,phpstorm,pycharm,postman,figma,npm,yarn,pnpm,bun,maven,gradle,cmake&theme=dark&perline=9" alt="Development tooling"/>
+</div>
+
+- **Git / GitHub / GitLab** — version control, review and collaboration.
+- **VS Code / Visual Studio / IntelliJ / PhpStorm / PyCharm** — editing, inspection and debugging.
+- **Postman** — API testing.
+- **Figma** — interface design and prototypes.
+- **npm / Yarn / pnpm / Bun** — JavaScript package management.
+- **Maven / Gradle / CMake** — JVM and native build systems.
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=git,github,gitlab,vscode,visualstudio,idea,phpstorm,pycharm,postman,figma,npm,yarn,pnpm,bun,maven,gradle,cmake&theme=dark&perline=9" alt="Development tooling"/>
+<img width="100%" src="https://raw.githubusercontent.com/Old-Rx/Old-Rx/main/assets/code-rain.svg" alt="Code Stream"/>
 
 </div>
 
-| Category | Tools | What they do |
-|:--|:--|:--|
-| Version control | Git, GitHub, GitLab | Track changes, branches, reviews and releases |
-| Editors / IDEs | VS Code, Visual Studio, IntelliJ, PhpStorm, PyCharm | Write, inspect, refactor and debug code |
-| API tooling | Postman | Test HTTP APIs and request flows |
-| Design | Figma | UI planning, prototypes and design systems |
-| JS package managers | npm, Yarn, pnpm, Bun | Install and manage JavaScript dependencies |
-| JVM build systems | Maven, Gradle | Compile/package JVM projects |
-| Native build tooling | CMake | Configure native C/C++ builds |
-
 ---
 
-# `03 // ENGINEERING PRINCIPLES`
+# `03 // ENGINEERING CORE`
 
-### `Architecture before complexity`
+<div align="center">
 
-Clear boundaries matter more than a large tool list. UI logic, authentication, data access and infrastructure should have defined responsibilities.
+<img width="100%" src="https://raw.githubusercontent.com/Old-Rx/Old-Rx/main/assets/reactor-core.svg" alt="Development Reactor"/>
 
-### `Performance is part of design`
+</div>
 
-Performance includes render cost, payload size, database queries, indexes, caching, network latency and server resource usage.
+### Architecture before complexity
 
-### `Security belongs inside the architecture`
+Clear boundaries beat a giant stack. UI, authentication, business logic, persistence and infrastructure should each have defined responsibilities.
 
-Validation, authorization, secret management, safe defaults and minimal privileges should be designed in rather than added at the end.
+### Performance is part of design
 
-### `Production is its own environment`
+Performance includes render cost, bundle size, payload size, indexes, query patterns, caching, network latency and server resource usage.
 
-Production introduces proxies, DNS, TLS, environment configuration, containers, real traffic, logs, metrics and failure recovery.
+### Security belongs inside the architecture
 
----
+<div align="center">
 
-# `04 // THREAT RADAR`
+<img width="100%" src="https://raw.githubusercontent.com/Old-Rx/Old-Rx/main/assets/security-gate.svg" alt="Security Gate"/>
+
+</div>
+
+Security means validation, authorization, secret management, minimal privilege, safe defaults and reduced attack surface — not just a checklist added before release.
+
+### Production is a different environment
 
 <div align="center">
 
@@ -378,81 +265,62 @@ Production introduces proxies, DNS, TLS, environment configuration, containers, 
 
 </div>
 
+Real production introduces DNS, TLS, proxies, containers, environment variables, traffic, logs, monitoring, failures and recovery.
+
 ---
 
-# `05 // CURRENT PUBLIC BUILD`
+# `04 // CURRENT PUBLIC BUILD`
 
 <div align="center">
 
+<img width="100%" src="https://raw.githubusercontent.com/Old-Rx/Old-Rx/main/assets/project-beacon.svg" alt="rx-msg Project Beacon"/>
+
 <a href="https://github.com/Old-Rx/rx-msg">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Old-Rx&repo=rx-msg&hide_border=true&bg_color=070708&title_color=ff314f&icon_color=ff314f&text_color=f5f5f5"/>
+  <img src="https://img.shields.io/badge/OPEN%20Old--Rx%2Frx--msg-ff314f?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 </div>
 
 ```text
-PROJECT     : rx-msg
-OWNER       : Old-Rx
-VISIBILITY  : Public
-LANGUAGE    : Haskell
-BRANCH      : main
-STATUS      : Active
+PROJECT        : rx-msg
+OWNER          : Old-Rx
+VISIBILITY     : Public
+LANGUAGE       : Haskell
+DEFAULT BRANCH : main
+ROLE           : Current public build
 ```
+
+The important distinction is intentional: the **technology map** explains categories and tools, while this section shows data tied to an actual public repository.
 
 ---
 
-# `06 // SYSTEM ARCHITECTURE`
+# `05 // DELIVERY PIPELINE`
+
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/Old-Rx/Old-Rx/main/assets/delivery-pipeline.svg" alt="Delivery Pipeline"/>
+
+</div>
 
 ```text
-                            USER
-                             │
-                             ▼
-                      ┌─────────────┐
-                      │  FRONTEND   │
-                      └──────┬──────┘
-                             │ HTTPS
-                             ▼
-                      ┌─────────────┐
-                      │ API / AUTH  │
-                      └──────┬──────┘
-                             │
-               ┌─────────────┼─────────────┐
-               ▼             ▼             ▼
-          ┌─────────┐   ┌─────────┐   ┌─────────┐
-          │   SQL   │   │  NoSQL  │   │  Cache  │
-          └────┬────┘   └────┬────┘   └────┬────┘
-               └─────────────┼──────────────┘
-                             ▼
-                      ┌─────────────┐
-                      │   SERVER    │
-                      │ Linux/Docker│
-                      └──────┬──────┘
-                             ▼
-                      ┌─────────────┐
-                      │ MONITORING  │
-                      └─────────────┘
+COMMIT
+  ↓
+TEST
+  ↓
+BUILD
+  ↓
+DEPLOY
+  ↓
+OBSERVE
+  ↓
+IMPROVE
 ```
+
+A reliable pipeline reduces manual repetition while preserving visibility into the risky parts of deployment.
 
 ---
 
-# `07 // DEVELOPMENT LOOP`
-
-```text
-╔══════════════════════════════════════════════════════════════════════╗
-║  01  UNDERSTAND  ──► Define the actual problem                      ║
-║  02  DESIGN      ──► Choose boundaries and data flow                ║
-║  03  BUILD       ──► Implement the smallest correct version         ║
-║  04  TEST        ──► Attack normal paths and edge cases             ║
-║  05  DEBUG       ──► Use logs and reproducible failures             ║
-║  06  DEPLOY      ──► Make the environment repeatable                ║
-║  07  OBSERVE     ──► Measure real production behavior               ║
-║  08  IMPROVE     ──► Refactor and optimize based on evidence        ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
-
----
-
-# `08 // COMMIT HUNTER`
+# `06 // COMMIT HUNTER`
 
 <div align="center">
 
@@ -460,11 +328,11 @@ STATUS      : Active
 
 </div>
 
-Local SVG animation — no generated `output` branch and no required workflow.
+This animation is stored directly in the repository. It does **not** depend on a generated `output` branch or scheduled contribution-snake workflow.
 
 ---
 
-# `09 // FINAL BOSS`
+# `07 // PRODUCTION BOSS`
 
 <div align="center">
 
@@ -473,60 +341,76 @@ Local SVG animation — no generated `output` branch and no required workflow.
 </div>
 
 ```text
-PRODUCTION BOSS PHASES
-
-PHASE 1   Build succeeds locally
-PHASE 2   Environment differences appear
-PHASE 3   Real traffic arrives
-PHASE 4   Logs reveal edge cases
-PHASE 5   Patch, observe and stabilize
+PHASE 1  Local build succeeds
+PHASE 2  Environment differences appear
+PHASE 3  Real traffic arrives
+PHASE 4  Logs expose edge cases
+PHASE 5  Patch, observe and stabilize
 
 VICTORY:
-A system that remains understandable when something goes wrong.
+The system remains understandable when something goes wrong.
 ```
 
 ---
 
-# `10 // GITHUB SYSTEM DATA`
+# `08 // RELIABILITY MODEL`
 
-<div align="center">
+The previous version used several third-party generators for statistics, streaks, activity graphs and typing animations. Those can rate-limit or disappear independently of GitHub.
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Old-Rx&show_icons=true&count_private=true&hide_border=true&bg_color=070708&title_color=ff314f&icon_color=ff314f&text_color=f5f5f5&ring_color=ff314f"/>
+The critical experience now lives in `Old-Rx/Old-Rx/assets/`:
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Old-Rx&layout=compact&langs_count=8&hide_border=true&bg_color=070708&title_color=ff314f&text_color=f5f5f5"/>
+```text
+LOCAL ANIMATIONS
+  ├─ redline hero
+  ├─ RX letter run
+  ├─ live terminal
+  ├─ command center
+  ├─ technology orbit
+  ├─ reactor core
+  ├─ code stream
+  ├─ security gate
+  ├─ threat radar
+  ├─ project beacon
+  ├─ delivery pipeline
+  ├─ commit hunter
+  ├─ production boss
+  └─ redline footer
 
-<br/><br/>
+EXTERNAL
+  ├─ skillicons.dev → technology icons
+  └─ shields.io     → simple navigation badges
 
-<img width="78%" src="https://streak-stats.demolab.com?user=Old-Rx&hide_border=true&background=070708&ring=FF314F&fire=FF5870&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF314F&sideLabels=FF8293&dates=999999"/>
+LIVE DATA
+  └─ GitHub itself
+```
 
-</div>
+This keeps the profile visually rich while removing the most fragile dependencies.
 
 ---
 
-# `11 // ACTIVITY RADAR`
-
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Old-Rx&bg_color=070708&color=ff8293&line=ff314f&point=ffffff&area=true&area_color=4d000d&hide_border=true&custom_title=OLD-RX%20%2F%2F%20REDLINE%20ACTIVITY"/>
-
-</div>
-
----
-
-# `12 // MISSION BOARD`
+# `09 // MISSION BOARD`
 
 ```text
 [████████████████████████████████████████] OLD-RX IDENTITY
 [████████████████████████████████████████] RX-DEVELOPMENT
-[████████████████████████████████████░░░░] REDLINE PROFILE
-[██████████████████████████████░░░░░░░░░░] PROJECT NETWORK
-[████████████████████████░░░░░░░░░░░░░░░░] OPEN SOURCE
-[████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] NEXT MISSION
+[█████████████████████████████████████░░░] REDLINE PROFILE
+[████████████████████████████████░░░░░░░░] PROJECT DOCUMENTATION
+[████████████████████████████░░░░░░░░░░░░] OPEN SOURCE NETWORK
+[████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░] NEXT PUBLIC BUILD
 ```
+
+### Current objectives
+
+- Keep profile claims connected to real public projects.
+- Grow repository documentation as new projects are added.
+- Keep the visual language consistent: **black / crimson / white**.
+- Prefer local SVG animation for profile-critical visuals.
+- Organize technologies by purpose instead of displaying an unexplained icon wall.
+- Turn each project into something another developer can understand quickly.
 
 ---
 
-# `13 // TERMINAL PROFILE`
+# `10 // TERMINAL PROFILE`
 
 ```console
 root@old-rx:~# whoami
@@ -557,21 +441,21 @@ root@old-rx:~# _
 
 ---
 
-# `14 // REDLINE RULESET`
+# `11 // REDLINE RULESET`
 
 ```diff
 + ORGANIZE TECHNOLOGIES BY PURPOSE
 + KEEP ARCHITECTURE UNDERSTANDABLE
-+ USE THE RIGHT TOOL FOR THE LAYER
 + DEBUG WITH EVIDENCE
-+ AUTOMATE REPETITIVE DEPLOYMENT WORK
++ AUTOMATE REPETITIVE DELIVERY WORK
 + OBSERVE PRODUCTION BEHAVIOR
-+ KEEP THE PROFILE CONNECTED TO REAL PROJECTS
++ KEEP PROFILE CLAIMS CONNECTED TO REAL PROJECTS
++ USE LOCAL ANIMATION FOR CRITICAL VISUALS
 
-- NO RANDOM ICON WALL WITHOUT CONTEXT
-- NO GENERIC COMPANY BRANDING
-- NO BROKEN CONTRIBUTION WORKFLOWS
-- NO EMPTY "EXPERT IN EVERYTHING" CLAIMS
+- NO RANDOM COMPANY BRANDING
+- NO FRAGILE CONTRIBUTION WORKFLOW
+- NO BROKEN THIRD-PARTY STAT WALL
+- NO "EXPERT IN EVERYTHING" CLAIM
 ```
 
 ---
@@ -580,12 +464,12 @@ root@old-rx:~# _
 
 <img width="100%" src="https://raw.githubusercontent.com/Old-Rx/Old-Rx/main/assets/redline-footer.svg" alt="Redline Footer"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=1450&pause=500&color=FF314F&center=true&vCenter=true&repeat=true&width=1000&height=75&lines=REDLINE+APEX+ACTIVE;TECHNOLOGY+MAP+LOADED;PLAYER+OLD-RX+CONNECTED;RX-DEVELOPMENT+UNLOCKED;SEE+YOU+IN+THE+NEXT+COMMIT"/>
+**`REDLINE APEX // PLAYER OLD-RX CONNECTED // RX-DEVELOPMENT ONLINE`**
 
-<br/>
+<br/><br/>
 
 <a href="https://github.com/Old-Rx">
-  <img src="https://img.shields.io/badge/FOLLOW%20OLD--RX-ff314f?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OLD--RX%20PROFILE-ff314f?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 <a href="https://github.com/Old-Rx?tab=repositories">
   <img src="https://img.shields.io/badge/EXPLORE%20REPOSITORIES-790016?style=for-the-badge&logo=github&logoColor=white"/>
