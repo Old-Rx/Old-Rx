@@ -86,7 +86,8 @@ Modern AI work is more than sending a prompt to one model. I focus on composing 
   <tr>
     <td width="72" align="center"><h2>Ω</h2></td>
     <td>
-      <strong>RX-AI OMEGA</strong><br />
+      <a href="https://github.com/Old-Rx/RX-AI-OMEGA"><strong>RX-AI OMEGA</strong></a>
+      &nbsp;<img src="https://img.shields.io/badge/PUBLIC-4ad7ff?style=flat-square&labelColor=080b12" alt="Public repository" /><br />
       An approval-aware AI mission control platform. Its current development line explores authenticated operations, persistent mission workflows, dependency-aware execution, model providers, knowledge memory, human control, auditability, testing, and production delivery.
     </td>
   </tr>
