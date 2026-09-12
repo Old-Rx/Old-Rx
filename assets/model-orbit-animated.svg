@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Animated AI model orbit</title>
+  <desc id="desc">Multiple model providers orbit a provider-neutral routing core.</desc>
+  <defs><filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="l" x1="0" x2="1"><stop stop-color="#4ad7ff"/><stop offset=".5" stop-color="#9666ff"/><stop offset="1" stop-color="#ff436d"/></linearGradient></defs>
+  <rect width="1200" height="340" rx="24" fill="#080b12"/>
+  <text x="48" y="50" fill="#4ad7ff" font-family="monospace" font-size="22" font-weight="700">MODEL ROUTER // PROVIDER ORBIT</text>
+  <text x="1150" y="50" fill="#ffc45f" font-family="monospace" font-size="15" text-anchor="end">QUALITY · PRIVACY · SPEED · COST</text>
+  <g transform="translate(600 190)" fill="none">
+    <ellipse rx="470" ry="112" stroke="#20324c" stroke-width="2"/>
+    <ellipse rx="360" ry="86" stroke="#20324c" stroke-width="2"/>
+    <ellipse rx="250" ry="60" stroke="#20324c" stroke-width="2"/>
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/><circle cx="470" r="16" fill="#4ad7ff" filter="url(#g)"/><circle cx="-470" r="12" fill="#ff436d" filter="url(#g)"/></g>
+    <g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="13s" repeatCount="indefinite"/><circle cx="360" r="14" fill="#9666ff" filter="url(#g)"/><circle cx="-360" r="10" fill="#ffc45f" filter="url(#g)"/></g>
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/><circle cx="250" r="11" fill="#4ad7ff" filter="url(#g)"/><circle cx="-250" r="9" fill="#ff436d" filter="url(#g)"/></g>
+    <circle r="82" fill="#0d1420" stroke="url(#l)" stroke-width="4" filter="url(#g)"><animate attributeName="stroke-width" values="2;5;2" dur="3s" repeatCount="indefinite"/></circle>
+    <text y="-8" fill="#fff" font-family="monospace" font-size="25" font-weight="700" text-anchor="middle">RX ROUTER</text>
+    <text y="22" fill="#4ad7ff" font-family="monospace" font-size="14" text-anchor="middle">MODEL-NEUTRAL</text>
+  </g>
+</svg>

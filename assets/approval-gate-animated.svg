@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Animated human approval gate</title>
+  <desc id="desc">High-risk AI work pauses at a human review gate before execution.</desc>
+  <defs><filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="ok" x1="0" x2="1"><stop stop-color="#ff436d"/><stop offset=".55" stop-color="#ffc45f"/><stop offset="1" stop-color="#4ad7ff"/></linearGradient></defs>
+  <rect width="1200" height="320" rx="24" fill="#080b12"/>
+  <text x="48" y="50" fill="#ffc45f" font-family="monospace" font-size="22" font-weight="700">GOVERNANCE // HUMAN-IN-THE-LOOP</text>
+  <g font-family="monospace" font-weight="700" text-anchor="middle">
+    <rect x="75" y="116" width="230" height="92" rx="18" fill="#0d1420" stroke="#ff436d" stroke-width="2"/><text x="190" y="154" fill="#ff436d" font-size="15">CONTROLLED ACTION</text><text x="190" y="181" fill="#dce8f5" font-size="13">RELEASE · DEPLOY · DELETE</text>
+    <path d="M305 162H470" stroke="#ff436d" stroke-width="4" stroke-dasharray="10 12"><animate attributeName="stroke-dashoffset" from="0" to="-44" dur="1.6s" repeatCount="indefinite"/></path>
+    <g filter="url(#g)"><path d="M600 88l88 34v66c0 56-39 91-88 108-49-17-88-52-88-108v-66z" fill="#0d1420" stroke="url(#ok)" stroke-width="4"><animate attributeName="stroke-width" values="2;5;2" dur="2.8s" repeatCount="indefinite"/></path><text x="600" y="160" fill="#fff" font-size="18">HUMAN</text><text x="600" y="187" fill="#ffc45f" font-size="18">REVIEW</text><text x="600" y="220" fill="#8fa1b8" font-size="12">APPROVE / REJECT</text></g>
+    <path d="M688 162H853" stroke="#4ad7ff" stroke-width="4" stroke-dasharray="10 12"><animate attributeName="stroke-dashoffset" from="0" to="-44" dur="1.6s" repeatCount="indefinite"/></path>
+    <rect x="853" y="116" width="272" height="92" rx="18" fill="#0d1420" stroke="#4ad7ff" stroke-width="2"/><text x="989" y="154" fill="#4ad7ff" font-size="17">SAFE EXECUTION</text><text x="989" y="181" fill="#dce8f5" font-size="13">AUDITED + REVERSIBLE</text>
+  </g>
+</svg>

@@ -34,6 +34,8 @@ The technology catalog below is a map of the ecosystem I work with, study, or in
 ## `AI://MULTI-AGENT OPERATIONS`
 
 <div align="center">
+  <img width="100%" src="./assets/ai-command-matrix.png" alt="Cinematic AI command matrix" />
+  <br /><br />
   <img width="100%" src="./assets/rx-auto-run-4k.gif" alt="Old-Rx autonomous multi-agent execution" />
 </div>
 
@@ -49,6 +51,10 @@ Modern AI work is more than sending a prompt to one model. I focus on composing 
 | Human approval gates | Pause consequential actions before release, deployment, publication, or deletion |
 | Model routing | Select cloud or local providers based on quality, privacy, speed, and cost |
 | Evaluation and observability | Track outcomes, failures, latency, audit events, and opportunities to improve |
+
+<div align="center">
+  <img width="100%" src="./assets/agent-network-animated.svg" alt="Animated multi-agent network" />
+</div>
 
 ### AI models and coding assistants
 
@@ -69,6 +75,10 @@ Modern AI work is more than sending a prompt to one model. I focus on composing 
 `Agents` · `Prompt design` · `Structured outputs` · `Tool use` · `RAG` · `Vector search` · `Memory` · `Model evaluation` · `Guardrails` · `Human-in-the-loop` · `Audit trails` · `Provider abstraction` · `Local models` · `Vision workflows` · `Automation`
 
 **Model ecosystem radar:** OpenAI GPT · Anthropic Claude · Google Gemini · Meta Llama · Mistral · DeepSeek · Cohere · open-source Hugging Face models · Ollama-hosted local models. The goal is provider-aware integration—not treating every model as interchangeable.
+
+<div align="center">
+  <img width="100%" src="./assets/model-orbit-animated.svg" alt="Animated provider-neutral model router" />
+</div>
 
 ## `NOW://BUILDING`
 
@@ -98,9 +108,15 @@ flowchart LR
     X --> O[Audit + Observe]
 ```
 
+<div align="center">
+  <img width="100%" src="./assets/approval-gate-animated.svg" alt="Animated human approval gate" />
+</div>
+
 ## `TECH://UNIVERSE`
 
 <div align="center">
+  <img width="100%" src="./assets/developer-tool-universe.png" alt="Cinematic developer tool universe" />
+  <br /><br />
   <img width="100%" src="./assets/tech-universe-4k.gif" alt="Old-Rx technology universe" />
 </div>
 
@@ -194,6 +210,10 @@ flowchart LR
 
 **Extended tool belt:** Cursor · Windsurf · Jupyter · Swagger/OpenAPI · DBeaver · pgAdmin · Docker Desktop · browser developer tools · Sentry · shell environments · linters · formatters · type checkers · test runners · profilers · security scanners.
 
+<div align="center">
+  <img width="100%" src="./assets/terminal-4k.gif" alt="Animated Old-Rx engineering terminal" />
+</div>
+
 </details>
 
 <details>
@@ -213,6 +233,8 @@ flowchart LR
 
 <div align="center">
   <img width="100%" src="./assets/pipeline-4k.gif" alt="Automated software delivery pipeline" />
+  <br /><br />
+  <img width="100%" src="./assets/tool-pipeline-animated.svg" alt="Animated AI tool execution stream" />
 </div>
 
 Good engineering does not end when code runs locally. The delivery loop should be repeatable and understandable:
@@ -225,6 +247,10 @@ DISCOVER → DESIGN → IMPLEMENT → REVIEW → TEST → BUILD → PACKAGE
 - Quality gates: formatting, linting, types, tests, coverage, dependency checks, and reproducible builds.
 - Release controls: versioning, changelogs, artifacts, configuration validation, migrations, and rollback paths.
 - Production readiness: least privilege, secure secrets, backups, health checks, metrics, logs, and incident visibility.
+
+<div align="center">
+  <img width="100%" src="./assets/production-boss-4k.gif" alt="Animated production engineering sequence" />
+</div>
 
 ## `OBSERVABILITY://LIVE SIGNALS`
 
