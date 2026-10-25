@@ -37,6 +37,35 @@ I design and build systems where **AI agents, dependable APIs, thoughtful interf
 
 The technology catalog below is a map of the ecosystem I work with, study, or integrate. It is **not a claim of identical mastery in every listed technology**; real depth is demonstrated through shipped repositories, tests, and maintainable systems.
 
+## `FEATURED://PROJECTS`
+
+<table>
+  <tr>
+    <td width="64" align="center"><h2>Ω</h2></td>
+    <td>
+      <a href="https://github.com/Old-Rx/RX-AI-OMEGA"><strong>RX-AI OMEGA</strong></a> &nbsp;
+      <img src="https://img.shields.io/badge/Python-FastAPI-3776AB?style=flat-square&logo=python&logoColor=white" />
+      <img src="https://img.shields.io/badge/React-TypeScript-61DAFB?style=flat-square&logo=react&logoColor=111" />
+      <img src="https://img.shields.io/badge/License-MIT-4ad7ff?style=flat-square" />
+      <img src="https://img.shields.io/github/stars/Old-Rx/RX-AI-OMEGA?style=flat-square&color=ff436d&label=stars" /><br />
+      An <strong>auditable, approval-aware multi-agent mission orchestrator</strong>. It compiles a mission into a validated dependency graph, runs each step through a configurable model provider, persists every transition, and pauses consequential actions for a human to approve or reject — automation that stays observable and controllable. FastAPI control plane · React operations console · JWT + RBAC · append-only audit trail · Docker Compose delivery.
+      <br /><br />
+      <a href="https://github.com/Old-Rx/RX-AI-OMEGA"><img src="https://img.shields.io/badge/View%20project-4ad7ff?style=for-the-badge&logo=github&logoColor=white&labelColor=080b12" /></a>
+      <img src="https://img.shields.io/badge/status-active%20(0.1.x)-9666ff?style=for-the-badge&labelColor=080b12" />
+    </td>
+  </tr>
+  <tr>
+    <td width="64" align="center"><h2>✉</h2></td>
+    <td>
+      <a href="https://github.com/Old-Rx/rx-msg"><strong>rx-msg</strong></a> &nbsp;
+      <img src="https://img.shields.io/badge/Haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white" />
+      <img src="https://img.shields.io/badge/License-AGPL--3.0-ff436d?style=flat-square" />
+      <img src="https://img.shields.io/github/stars/Old-Rx/rx-msg?style=flat-square&color=ff436d&label=stars" /><br />
+      A Haskell messaging/CLI exploration — a proving ground for typed, reliable message flows and sharp command-line ergonomics.
+    </td>
+  </tr>
+</table>
+
 ## `AI://MULTI-AGENT OPERATIONS`
 
 <div align="center">
@@ -277,6 +306,10 @@ DISCOVER → DESIGN → IMPLEMENT → REVIEW → TEST → BUILD → PACKAGE
 ## `GITHUB://SIGNALS`
 
 <div align="center">
+  <img width="94%" src="https://github-profile-trophy.vercel.app/?username=Old-Rx&theme=radical&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=7" alt="Rx Development GitHub trophies" />
+</div>
+
+<div align="center">
   <img alt="Rx Development contribution snake" src="assets/github-snake.svg" />
   <br /><br />
   <img width="92%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Old-Rx&theme=github_dark" alt="Rx Development GitHub profile summary" />
@@ -307,6 +340,17 @@ DISCOVER → DESIGN → IMPLEMENT → REVIEW → TEST → BUILD → PACKAGE
 06  Use the right model and tool for the job
 07  Shipping is a loop: build → verify → observe → improve
 ```
+
+## `CAPABILITIES://DELIVER`
+
+| Outcome | What I bring |
+|---|---|
+| **Ship AI systems responsibly** | Multi-agent orchestration with approval gates, audit trails, and provider-agnostic execution |
+| **Build dependable backends** | FastAPI/Node services, auth & RBAC, validated data models, migrations, and test suites |
+| **Design product interfaces** | React + TypeScript consoles that make complex state (missions, approvals, logs) legible |
+| **Establish delivery & observability** | CI/CD, containers, metrics/logs/traces, and disciplined production configuration |
+
+---
 
 ## `CONNECT://CHANNELS`
 
