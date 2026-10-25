@@ -1,12 +1,17 @@
-<!-- OLD-RX // PROFILE CORE -->
+<!-- RX DEVELOPMENT // PROFILE CORE -->
 
 <div align="center">
-  <img width="100%" src="./assets/old-rx-omega-hero.png" alt="Old-Rx — AI Systems, Automation, Full-Stack" />
+  <img width="140" src="./assets/rx-avatar.png" alt="RX Monogram — Rx Development" />
+
+  <br />
+
+  <img width="100%" src="./assets/old-rx-omega-hero.png" alt="Rx Development — AI Systems, Automation, Full-Stack" />
 
   <br />
 
   <a href="https://github.com/Old-Rx?tab=repositories"><img src="https://img.shields.io/badge/Explore-Projects-4ad7ff?style=for-the-badge&logo=github&logoColor=white&labelColor=080b12" alt="Explore projects" /></a>
   <img src="https://komarev.com/ghpvc/?username=Old-Rx&style=for-the-badge&color=ff436d&label=PROFILE+SIGNALS" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Rx%20Development-BRAND-ff436d?style=for-the-badge&labelColor=080b12" alt="Rx Development" />
   <img src="https://img.shields.io/badge/STATUS-BUILDING-9666ff?style=for-the-badge&labelColor=080b12" alt="Status: building" />
 
   <h3>Engineering controlled intelligence into real systems.</h3>
@@ -20,6 +25,7 @@
 
 ```text
 HANDLE       : Old-Rx
+BRAND        : Rx Development
 FOCUS        : Auditable AI systems and full-stack products
 BUILD MODE   : Architecture → Code → Test → Ship → Observe
 CURRENT ARC  : RX-AI OMEGA
@@ -296,6 +302,6 @@ DISCOVER → DESIGN → IMPLEMENT → REVIEW → TEST → BUILD → PACKAGE
 <div align="center">
   <img width="100%" src="./assets/footer-4k.gif" alt="Old-Rx profile footer" />
   <br />
-  <sub>Designed and built from the Old-Rx control room.</sub><br />
+  <sub>Designed and built by Rx Development.</sub><br />
   <sub>Open to thoughtful engineering conversations and ambitious systems.</sub>
 </div>
