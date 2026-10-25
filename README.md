@@ -277,12 +277,23 @@ DISCOVER → DESIGN → IMPLEMENT → REVIEW → TEST → BUILD → PACKAGE
 ## `GITHUB://SIGNALS`
 
 <div align="center">
-  <img width="92%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Old-Rx&theme=github_dark" alt="Old-Rx GitHub profile summary" />
+  <img alt="Rx Development contribution snake" src="assets/github-snake.svg" />
+  <br /><br />
+  <img width="92%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Old-Rx&theme=github_dark" alt="Rx Development GitHub profile summary" />
 </div>
 
 <div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Old-Rx&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" alt="Rx Development GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=Old-Rx&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top languages" />
+</div>
+
+<div align="center">
+  <img height="165" src="https://streak-stats.demolab.com?user=Old-Rx&theme=github-dark-blue&hide_border=true" alt="Rx Development contribution streak" />
   <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Old-Rx&theme=github_dark" alt="Public repositories by language" />
-  <img height="165" src="https://streak-stats.demolab.com?user=Old-Rx&theme=github-dark-blue&hide_border=true" alt="Old-Rx contribution streak" />
+</div>
+
+<div align="center">
+  <img width="92%" src="https://api.star-history.com/svg?repos=Old-Rx/RX-AI-OMEGA&type=Date&theme=dark" alt="RX-AI-OMEGA star history" />
 </div>
 
 ## `OPERATING://PRINCIPLES`
@@ -297,10 +308,18 @@ DISCOVER → DESIGN → IMPLEMENT → REVIEW → TEST → BUILD → PACKAGE
 07  Shipping is a loop: build → verify → observe → improve
 ```
 
+## `CONNECT://CHANNELS`
+
+<div align="center">
+  <a href="https://github.com/Old-Rx"><img src="https://img.shields.io/badge/GitHub-Old--Rx-4ad7ff?style=for-the-badge&logo=github&logoColor=white&labelColor=080b12" alt="GitHub" /></a>
+  <a href="https://github.com/Old-Rx?tab=repositories"><img src="https://img.shields.io/badge/Repositories-Explore-9666ff?style=for-the-badge&logo=github&logoColor=white&labelColor=080b12" alt="Repositories" /></a>
+  <img src="https://img.shields.io/badge/Rx%20Development-Open%20to%20collaboration-ff436d?style=for-the-badge&labelColor=080b12" alt="Open to collaboration" />
+</div>
+
 ---
 
 <div align="center">
-  <img width="100%" src="./assets/footer-4k.gif" alt="Old-Rx profile footer" />
+  <img width="100%" src="./assets/footer-4k.gif" alt="Rx Development profile footer" />
   <br />
   <sub>Designed and built by Rx Development.</sub><br />
   <sub>Open to thoughtful engineering conversations and ambitious systems.</sub>
