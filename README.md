@@ -357,6 +357,8 @@ DISCOVER → DESIGN → IMPLEMENT → REVIEW → TEST → BUILD → PACKAGE
 <div align="center">
   <a href="https://github.com/Old-Rx"><img src="https://img.shields.io/badge/GitHub-Old--Rx-4ad7ff?style=for-the-badge&logo=github&logoColor=white&labelColor=080b12" alt="GitHub" /></a>
   <a href="https://github.com/Old-Rx?tab=repositories"><img src="https://img.shields.io/badge/Repositories-Explore-9666ff?style=for-the-badge&logo=github&logoColor=white&labelColor=080b12" alt="Repositories" /></a>
+  <a href="https://github.com/Old-Rx/RX-AI-OMEGA/discussions"><img src="https://img.shields.io/badge/Discussions-Open-9666ff?style=for-the-badge&logo=github&logoColor=white&labelColor=080b12" alt="Discussions" /></a>
+  <a href="https://github.com/Old-Rx/RX-AI-OMEGA/releases"><img src="https://img.shields.io/badge/Releases-v0.1.0-ff436d?style=for-the-badge&logo=github&logoColor=white&labelColor=080b12" alt="Releases" /></a>
   <img src="https://img.shields.io/badge/Rx%20Development-Open%20to%20collaboration-ff436d?style=for-the-badge&labelColor=080b12" alt="Open to collaboration" />
 </div>
 
